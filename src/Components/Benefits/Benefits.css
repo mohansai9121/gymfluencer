@@ -1,0 +1,199 @@
+.benefits-page {
+  position: relative;
+  width: 100vw;
+  height: 650vh;
+}
+.star-benefits {
+  position: absolute;
+  left: 45%;
+  width: auto;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 9px;
+}
+.title {
+  position: absolute;
+  top: 18vh;
+  color: #ee3918;
+  font-family: "protiqueBold";
+  font-size: 70px;
+  left: 20%;
+}
+.subtitle1 {
+  position: absolute;
+  top: 32vh;
+  font-family: "protiqueBold";
+  left: 30%;
+  font-size: 22px;
+}
+.subtitle2 {
+  position: absolute;
+  top: 37vh;
+  left: 40%;
+  font-family: "protiqueBold";
+  font-size: 22px;
+}
+.benefit1 {
+  position: absolute;
+  top: 44vh;
+  left: 7vw;
+  width: 25vw;
+  height: 38vh;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.benefit-icon {
+  position: absolute;
+  left: 2vw;
+  border: 1px solid gray;
+  border-radius: 5px;
+  top: 3vh;
+  padding: 7px;
+}
+.icon {
+  font-size: 30px;
+}
+.benefit-title {
+  color: #ee3918;
+  font-family: "protiqueBold";
+  position: absolute;
+  left: 2vw;
+  top: 15vh;
+  font-size: 22px;
+}
+.benefit-description1 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 20vh;
+  font-size: 18px;
+}
+.benefit-description2 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 24vh;
+  font-size: 18px;
+}
+.benefit-description3 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 28vh;
+  font-size: 18px;
+}
+.benefit2 {
+  position: absolute;
+  top: 85vh;
+  left: 7vw;
+  width: 25vw;
+  height: 38vh;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.benefit3 {
+  position: absolute;
+  top: 44vh;
+  left: 70vw;
+  width: 25vw;
+  height: 38vh;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.benefit4 {
+  position: absolute;
+  top: 85vh;
+  left: 70vw;
+  width: 25vw;
+  height: 38vh;
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+.forth-benefit-title2 {
+  top: 18vh;
+  color: #ee3918;
+  font-family: "protiqueBold";
+  position: absolute;
+  left: 2vw;
+  font-size: 22px;
+}
+.forth-benefit-description1 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 24vh;
+  font-size: 18px;
+}
+.forth-benefit-description2 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 28vh;
+  font-size: 18px;
+}
+.forth-benefit-description3 {
+  font-family: "protique";
+  position: absolute;
+  left: 2vw;
+  top: 32vh;
+  font-size: 18px;
+}
+.phone-img {
+  position: absolute;
+  top: 44vh;
+  left: 40vw;
+}
+.phone {
+  width: 22vw;
+  max-height: 90vh;
+  border-radius: 35px;
+  z-index: 0;
+}
+.phone-time {
+  position: absolute;
+  top: 2.5vw;
+  left: 6vh;
+  font-size: 12px;
+  color: black;
+}
+.phone-timer {
+  position: absolute;
+  top: 15vh;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  left: 9vw;
+}
+.phone-skip {
+  font-size: 14px;
+  color: #ee3918;
+  position: absolute;
+  top: 22vh;
+  left: 7.5vw;
+}
+.dumbell-image {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+}
+.phone-dumbell {
+  width: 18.3vw;
+  max-height: 60vh;
+}
+.fitnessHub-component {
+  position: absolute;
+  top: 130vh;
+}
+.transformations-component {
+  position: absolute;
+  top: 240vh;
+}
+.people-say-component {
+  position: absolute;
+  top: 390vh;
+}
+.nearest-gyms-component {
+  position: absolute;
+  top: 510vh;
+}

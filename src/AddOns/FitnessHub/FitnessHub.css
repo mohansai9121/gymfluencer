@@ -1,0 +1,99 @@
+.fitnessHubPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+}
+.fitnessHub-Content {
+  width: 45vw;
+  height: 80vh;
+  border: 1px solid gray;
+  border-radius: 25px;
+}
+.backgoundLift {
+  width: 45vw;
+  height: 80vh;
+  position: absolute;
+  opacity: 0.3;
+  border-radius: 25px;
+  top: 10vh;
+  left: 3vw;
+}
+.fitnesshub-title {
+  color: #ee3918;
+  font-family: cursive;
+  font-size: 50px;
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  width: 40vw;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.hub-content1 {
+  font-size: 18px;
+  position: absolute;
+  top: 40vh;
+  left: 5vw;
+  width: 40vw;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.hub-content2 {
+  font-size: 18px;
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+  width: 40vw;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.hub-content3 {
+  font-size: 18px;
+  position: absolute;
+  top: 70vh;
+  left: 5vw;
+  width: 40vw;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.images-scroll-down {
+  width: 45vw;
+  height: 80vh;
+  border: 1px solid gray;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.upper-image {
+  width: 35vw;
+  height: 40vh;
+  position: absolute;
+  bottom: 70vh;
+  left: 5vw;
+}
+.center-image {
+  width: 40vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 15vh;
+  left: 3vw;
+}
+.bottom-image {
+  width: 35vw;
+  height: 40vh;
+  position: absolute;
+  top: 70vh;
+  left: 5vw;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
