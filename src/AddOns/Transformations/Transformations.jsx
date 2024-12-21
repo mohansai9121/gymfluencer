@@ -3,12 +3,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import PersonCard from "./PersonCard";
-import kamalBefore from "../../assets/images/kamal-before.png";
-import kamalAfter from "../../assets/images/kamal-after.png";
-import poovannanBefore from "../../assets/images/poovannan-before.png";
-import poovannanAfter from "../../assets/images/poovannan-after.png";
-import rajBefore from "../../assets/images/raj-before.png";
-import rajAfter from "../../assets/images/raj-after.png";
+import kamalBefore from "../../assets/Images/kamal-before.png";
+import kamalAfter from "../../assets/Images/kamal-after.png";
+import poovannanBefore from "../../assets/Images/poovannan-before.png";
+import poovannanAfter from "../../assets/Images/poovannan-after.png";
+import rajBefore from "../../assets/Images/raj-before.png";
+import rajAfter from "../../assets/Images/raj-after.png";
 
 const Transformations = () => {
   const settings = {
