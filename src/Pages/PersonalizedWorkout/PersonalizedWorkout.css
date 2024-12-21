@@ -1,0 +1,81 @@
+.personalized-workout-page {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.personalized-workout-container {
+  height: 380vh;
+  width: 100vw;
+  position: absolute;
+  top: 25vh;
+  left: 0;
+  border: 5px solid red;
+}
+.personalized-workout-bgimg {
+  height: 380vh;
+  width: 100vw;
+  background-color: gray;
+}
+
+.personalized-workout-form-container {
+  height: 340vh;
+  width: 80vw;
+  background-color: blue;
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+}
+.personalized-workout-form-container-heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+}
+.personalized-workout-form-container-head1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 35vh;
+  left: 2vw;
+}
+.personalized-workout-form-container-head2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 105vh;
+  left: 2vw;
+}
+.personalized-workout-form-container-head3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 160vh;
+  left: 2vw;
+}
+.personalized-workout-form-container-head4 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 240vh;
+  left: 2vw;
+}
+.personalized-workout-form-container-head5 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ee3918;
+  position: absolute;
+  top: 280vh;
+  left: 2vw;
+}

@@ -20,6 +20,15 @@
   border-radius: 10px;
   overflow: hidden;
 }
+.blog1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: 2;
+}
 .blog2 {
   position: absolute;
   top: 20vh;
@@ -44,6 +53,15 @@
   object-fit: cover;
   cursor: pointer;
 }
+.blog-img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  z-index: 2;
+}
 .blog-img:hover {
   transform: scale(1.05);
   transition: all 0.3s ease-in-out;
@@ -61,7 +79,7 @@
 }
 .blog-text1 {
   position: absolute;
-  top: 45vh;
+  top: 55vh;
   left: 1vw;
   color: #fff;
   font-family: "protiqueBold";
@@ -73,7 +91,7 @@
 }
 .blog-date1 {
   position: absolute;
-  top: 66vh;
+  top: 86vh;
   left: 2vw;
   color: #fff;
   font-family: "protiqueBold";
@@ -81,15 +99,15 @@
 }
 .blog-author1 {
   position: absolute;
-  top: 66vh;
-  left: 12vw;
+  top: 86vh;
+  left: 22vw;
   color: #fff;
   font-family: "protiqueBold";
-  font-size: 16px;
+  font-size: 18px;
 }
 .blog-btn2 {
   position: absolute;
-  top: 18vh;
+  top: 15vh;
   left: 1vw;
   background-color: orange;
   color: #fff;
@@ -104,7 +122,7 @@
   left: 1vw;
   color: #fff;
   font-family: "protiqueBold";
-  font-size: 40px;
+  font-size: 36px;
   white-space: normal;
   word-wrap: break-word;
   line-height: 1;
@@ -113,22 +131,22 @@
 .blog-date2 {
   position: absolute;
   top: 32vh;
-  left: 1vw;
+  left: 30vw;
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
 }
 .blog-author2 {
   position: absolute;
-  top: 32vh;
-  left: 12vw;
+  top: 36vh;
+  left: 30vw;
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
 }
 .blog-btn3 {
   position: absolute;
-  top: 18vh;
+  top: 15vh;
   left: 1vw;
   background-color: #3bd90a;
   color: #fff;
@@ -152,15 +170,15 @@
 .blog-date3 {
   position: absolute;
   top: 32vh;
-  left: 1vw;
+  left: 30vw;
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
 }
 .blog-author3 {
   position: absolute;
-  top: 32vh;
-  left: 12vw;
+  top: 36vh;
+  left: 30vw;
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;

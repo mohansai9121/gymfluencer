@@ -1,0 +1,19 @@
+.start-journey-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.start-journey-background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid green;
+}
+.start-journey-container {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  background: rgba(238, 57, 24, 0.5);
+}

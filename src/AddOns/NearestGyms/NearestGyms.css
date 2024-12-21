@@ -28,24 +28,30 @@
 }
 .nearest-gyms-detail {
   width: 52vw;
-  height: 40vh;
+  height: 30vh;
   border: 1px solid red;
   border-radius: 10px;
-  position: relative;
+  display: flex;
+  padding: 1vh 2vh;
+  gap: 2vh;
 }
-.nearest-gyms-detail-image {
+.nearest-gyms-detail:hover {
+  background-color: #ea1414;
+}
+/*.nearest-gyms-detail-image {
   position: absolute;
   top: 1vh;
   left: 1vw;
   width: 10vw;
   height: 18vh;
-}
+}*/
 .gym-img {
-  width: 100%;
-  height: 100%;
+  width: 10vw;
+  height: 18vh;
   object-fit: cover;
+  padding: 0vh 2vh;
 }
-.nearest-gyms-detail-name {
+/*.nearest-gyms-detail-name {
   position: absolute;
   top: 4vh;
   left: 15vw;
@@ -65,7 +71,7 @@
   left: 15vw;
   font-size: 20px;
   font-weight: 600;
-}
+}*/
 .gyms-map-container {
   position: absolute;
   left: 59vw;

@@ -1,0 +1,301 @@
+.diet-plans-container {
+  position: absolute;
+  height: 510vh;
+  width: 100vw;
+  top: 220vh;
+  left: 0;
+}
+.diet-plans-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 520vh;
+}
+.diet-plans-img1 {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img1-text {
+  position: absolute;
+  top: 70vh;
+  left: 2vw;
+  color: #ee3918;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img1-description {
+  position: absolute;
+  top: 80vh;
+  left: 2vw;
+  color: white;
+  font-size: 18px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img2 {
+  position: absolute;
+  top: 0vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img2-text {
+  position: absolute;
+  top: 70vh;
+  left: 0vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img2-description {
+  position: absolute;
+  top: 78vh;
+  left: 0vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img3 {
+  position: absolute;
+  top: 130vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img3-text {
+  position: absolute;
+  top: 70vh;
+  left: 2vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img3-description {
+  position: absolute;
+  top: 86vh;
+  left: 2vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img4 {
+  position: absolute;
+  top: 100vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img4-text {
+  position: absolute;
+  top: 70vh;
+  left: 0vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img4-description {
+  position: absolute;
+  top: 78vh;
+  left: 0vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img5 {
+  position: absolute;
+  top: 240vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img5-text {
+  position: absolute;
+  top: 70vh;
+  left: 2vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img5-description {
+  position: absolute;
+  top: 86vh;
+  left: 2vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img6 {
+  position: absolute;
+  top: 200vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img6-text {
+  position: absolute;
+  top: 70vh;
+  left: 0vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img6-description {
+  position: absolute;
+  top: 86vh;
+  left: 0vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img7 {
+  position: absolute;
+  top: 340vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img7-text {
+  position: absolute;
+  top: 70vh;
+  left: 2vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img7-description {
+  position: absolute;
+  top: 86vh;
+  left: 2vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img8 {
+  position: absolute;
+  top: 310vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img8-text {
+  position: absolute;
+  top: 70vh;
+  left: 0vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img8-description {
+  position: absolute;
+  top: 86vh;
+  left: 0vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img9 {
+  position: absolute;
+  top: 410vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: #ee3918;
+}
+.diet-plans-img9-text {
+  position: absolute;
+  top: 70vh;
+  left: 0vw;
+  color: #ee3918;
+  font-size: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}
+.diet-plans-img9-description {
+  position: absolute;
+  top: 78vh;
+  left: 0vw;
+  color: white;
+  font-size: 20px;
+  white-space: normal;
+  line-height: 1;
+  word-wrap: break-word;
+  width: 34vw;
+}

@@ -37,6 +37,15 @@
   font-size: 70px;
   font-weight: bolder;
   color: #ee3918;
+  animation: scrolling 3s linear 1s;
+}
+@keyframes scrolling {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 .about-subheading {
   display: flex;
@@ -49,6 +58,15 @@
   font-family: "protiqueBold";
   left: 20%;
   font-size: 18px;
+  animation: scrolling-y 2s linear 1s;
+}
+@keyframes scrolling-y {
+  0% {
+    transform: translateY(300%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 .align-row-wise {
   display: flex;

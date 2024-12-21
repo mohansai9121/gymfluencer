@@ -1,0 +1,173 @@
+.weight-loss-diet-plan-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.weight-loss-diet-plan-title {
+  position: absolute;
+  top: 35vh;
+  left: 30vw;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ee3918;
+}
+.weight-loss-diet-plan-subtitle {
+  position: absolute;
+  top: 50vh;
+  left: 22vw;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: normal;
+  width: 50%;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 1.1;
+}
+
+.weight-loss-diet-plan-video {
+  position: absolute;
+  top: 80vh;
+  left: 5%;
+  width: 90vw;
+  height: 95vh;
+  background-color: orange;
+}
+.weight-loss-diet-plan-offer {
+  position: absolute;
+  top: 200vh;
+  left: 25%;
+  font-family: "protiqueBold";
+  font-size: 50px;
+  color: #ee3918;
+  width: 45vw;
+  text-align: center;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.weight-loss-diet-plan-offer-img1 {
+  position: absolute;
+  top: 240vh;
+  left: 13vw;
+}
+.weight-loss-diet-plan-offer-img {
+  width: 10vw;
+  height: 22vh;
+  border-radius: 15px;
+}
+.weight-loss-diet-plan-offer-img2 {
+  position: absolute;
+  top: 240vh;
+  left: 45vw;
+}
+.weight-loss-diet-plan-offer-img3 {
+  position: absolute;
+  top: 240vh;
+  left: 75vw;
+}
+.weight-loss-diet-plan-offer-text1 {
+  position: absolute;
+  top: 265vh;
+  left: 11vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.weight-loss-diet-plan-offer-text2 {
+  position: absolute;
+  top: 265vh;
+  left: 44vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.weight-loss-diet-plan-offer-text3 {
+  position: absolute;
+  top: 265vh;
+  left: 75vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.weight-loss-diet-plan-offer-title2 {
+  position: absolute;
+  top: 290vh;
+  left: 25%;
+  font-family: "protiqueBold";
+  font-size: 50px;
+  color: #ee3918;
+  width: 45vw;
+  text-align: center;
+  line-height: 1;
+  white-space: normal;
+  word-wrap: break-word;
+}
+.weight-loss-diet-plan-offer-subtitle2 {
+  position: absolute;
+  top: 320vh;
+  left: 25%;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: normal;
+  width: 50vw;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 1.1;
+}
+.weight-loss-diet-plan-offer-goal {
+  position: absolute;
+  top: 340vh;
+  left: 0;
+  width: 100vw;
+  height: 200vh;
+  background-color: orange;
+}
+.weight-loss-diet-plan-offer-goal-matter {
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  width: 90vw;
+  height: 180vh;
+  background-color: greenyellow;
+}
+.weight-loss-diet-plan-offer-title3 {
+  position: absolute;
+  top: 550vh;
+  left: 40vw;
+  font-size: 40px;
+  font-weight: 600;
+  color: #ee3918;
+}
+.weight-loss-diet-plan-offer-subtitle3 {
+  position: absolute;
+  top: 565vh;
+  left: 25vw;
+  font-size: 20px;
+  font-weight: 500;
+  white-space: normal;
+  width: 55vw;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+.weight-loss-diet-plan-offer-7day-img {
+  position: absolute;
+  top: 580vh;
+  left: 2vw;
+  width: 30vw;
+  height: 85vh;
+  background-color: orange;
+}
+.weight-loss-diet-plan-offer-30day-img {
+  position: absolute;
+  top: 580vh;
+  left: 34vw;
+  width: 30vw;
+  height: 85vh;
+  background-color: orange;
+}
+.weight-loss-diet-plan-offer-450cal-img {
+  position: absolute;
+  top: 580vh;
+  left: 66vw;
+  width: 30vw;
+  height: 85vh;
+  background-color: orange;
+}

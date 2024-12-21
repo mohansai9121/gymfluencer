@@ -1,0 +1,252 @@
+.advanced-workouts-page {
+  width: 100vw;
+  height: 300vh;
+  position: relative;
+}
+.advanced-workouts-title {
+  position: absolute;
+  top: 40vh;
+  left: 35%;
+  color: #ee3918;
+  font-family: "protiqueBold";
+  font-size: 40px;
+}
+.advanced-workouts-subtitle {
+  position: absolute;
+  top: 55vh;
+  left: 32%;
+  font-size: 20px;
+  width: 37vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.2;
+}
+.advanced-workouts-plan-container {
+  position: absolute;
+  top: 100vh;
+  left: 0vw;
+  width: 100vw;
+  height: 830vh;
+  border: 5px solid red;
+}
+.advanced-workouts-plan-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 830vh;
+  background-color: gray;
+}
+.advanced-workouts-plan-box {
+  position: absolute;
+  top: 20vh;
+  left: 15vw;
+  width: 70vw;
+  height: 795vh;
+  border: 5px solid blue;
+}
+.advanced-workouts-plan-goal {
+  position: absolute;
+  top: 10vh;
+  left: 2vw;
+  font-size: 30px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-goal-subtitle {
+  position: absolute;
+  top: 15vh;
+  left: 2vw;
+  font-size: 20px;
+}
+.advanced-workouts-plan-schedule {
+  position: absolute;
+  top: 25vh;
+  left: 2vw;
+  font-size: 30px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-schedule-subtitle {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  font-size: 20px;
+}
+.advanced-workouts-plan-routine {
+  position: absolute;
+  top: 40vh;
+  left: 2vw;
+  font-size: 30px;
+  color: white;
+}
+.advanced-workouts-plan-day1 {
+  position: absolute;
+  top: 50vh;
+  left: 2vw;
+  font-size: 25px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-day1-img1 {
+  position: absolute;
+  top: 55vh;
+  left: 2vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day1-img2 {
+  position: absolute;
+  top: 55vh;
+  left: 25vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day1-img3 {
+  position: absolute;
+  top: 55vh;
+  left: 48vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day1-matter-container {
+  position: absolute;
+  top: 140vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: greenyellow;
+}
+.advanced-workouts-plan-day2 {
+  position: absolute;
+  top: 208vh;
+  left: 2vw;
+  font-size: 25px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-day2-img1 {
+  position: absolute;
+  top: 214vh;
+  left: 2vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day2-img2 {
+  position: absolute;
+  top: 214vh;
+  left: 25vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day2-img3 {
+  position: absolute;
+  top: 214vh;
+  left: 48vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day2-matter-container {
+  position: absolute;
+  top: 300vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: greenyellow;
+}
+.advanced-workouts-plan-day3 {
+  position: absolute;
+  top: 380vh;
+  left: 2vw;
+  font-size: 25px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-day3-img1 {
+  position: absolute;
+  top: 395vh;
+  left: 2vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day3-img2 {
+  position: absolute;
+  top: 395vh;
+  left: 25vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day3-img3 {
+  position: absolute;
+  top: 395vh;
+  left: 48vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day3-matter-container {
+  position: absolute;
+  top: 480vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: greenyellow;
+}
+.advanced-workouts-plan-day4 {
+  position: absolute;
+  top: 550vh;
+  left: 2vw;
+  font-size: 25px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-day4-img1 {
+  position: absolute;
+  top: 565vh;
+  left: 2vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day4-img2 {
+  position: absolute;
+  top: 565vh;
+  left: 25vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day4-img3 {
+  position: absolute;
+  top: 565vh;
+  left: 48vw;
+  width: 20vw;
+  height: 80vh;
+  background-color: green;
+}
+.advanced-workouts-plan-day4-matter-container {
+  position: absolute;
+  top: 650vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: greenyellow;
+}
+.advanced-workouts-plan-day5 {
+  position: absolute;
+  top: 720vh;
+  left: 2vw;
+  font-size: 25px;
+  color: #ee3918;
+}
+.advanced-workouts-plan-day5-matter-container {
+  position: absolute;
+  top: 730vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  background-color: greenyellow;
+}

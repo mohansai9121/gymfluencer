@@ -1,0 +1,138 @@
+.select-workouts-page {
+  width: 100vw;
+  height: 160vh;
+  position: absolute;
+  top: 100vh;
+}
+.workoutplans-select-title {
+  position: absolute;
+  top: 20vh;
+  left: 28%;
+  font-family: "protiqueBold";
+  font-size: 60px;
+  color: #ee3918;
+}
+.workoutplans-select-subtitle {
+  position: absolute;
+  top: 30vh;
+  left: 28%;
+  font-family: "protiqueBold";
+  font-size: 20px;
+  width: 40vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.2;
+}
+.workout-beginner-card {
+  position: absolute;
+  top: 50vh;
+  left: 3vw;
+  width: 20vw;
+  height: 70vh;
+  background-color: #ee3918;
+}
+.workout-beginner-title {
+  position: absolute;
+  top: 75vh;
+  left: 5vw;
+  font-family: "protiqueBold";
+  font-size: 30px;
+  color: #ee3918;
+}
+.workout-beginner-subtitle {
+  position: absolute;
+  top: 80vh;
+  left: -1.5vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+  width: 22vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1;
+}
+.workout-intermediate-card {
+  position: absolute;
+  top: 65vh;
+  left: 27vw;
+  width: 20vw;
+  height: 70vh;
+  background-color: #ee3918;
+}
+.workout-intermediate-title {
+  position: absolute;
+  top: 75vh;
+  left: 4vw;
+  font-family: "protiqueBold";
+  font-size: 30px;
+  color: #ee3918;
+}
+.workout-intermediate-subtitle {
+  position: absolute;
+  top: 80vh;
+  left: -1.5vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+  width: 22vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1;
+}
+.workout-advanced-card {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  width: 20vw;
+  height: 70vh;
+  background-color: #ee3918;
+}
+.workout-advanced-title {
+  position: absolute;
+  top: 75vh;
+  left: 4vw;
+  font-family: "protiqueBold";
+  font-size: 30px;
+  color: #ee3918;
+}
+.workout-advanced-subtitle {
+  position: absolute;
+  top: 80vh;
+  left: -1.5vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+  width: 22vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1;
+}
+.workout-personalized-card {
+  position: absolute;
+  top: 65vh;
+  left: 74vw;
+  width: 20vw;
+  height: 70vh;
+  background-color: #ee3918;
+}
+.workout-personalized-title {
+  position: absolute;
+  top: 75vh;
+  left: 4vw;
+  font-family: "protiqueBold";
+  font-size: 30px;
+  color: #ee3918;
+}
+.workout-personalized-subtitle {
+  position: absolute;
+  top: 80vh;
+  left: -1.5vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+  width: 22vw;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1;
+}

@@ -1,28 +1,15 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import homeBackground from "../../assets/Images/home-background.jpg";
-import "./Home.css";
-import logo from "../../assets/Images/gymfluencer-logo.png";
-import About from "../About/About";
-import Services from "../Services/Services";
-import Benefits from "../Benefits/Benefits";
-import Blogs from "../Blogs/Blogs";
-import Contact from "../Contact/Contact";
-import { FaAngleDown } from "react-icons/fa";
-import HomeVideo from "../HomeVideo/HomeVideo";
+import "./PersonalizedWorkout.css";
+import Support4 from "./Support4";
 import { Link } from "react-router-dom";
+import { FaAngleDown } from "react-icons/fa";
+import logo from "../../assets/Images/gymfluencer-logo.png";
 import { useState } from "react";
 
-const Home = () => {
+const PersonalizedWorkout = () => {
   const [isOptions, setIsOptions] = useState(false);
   return (
-    <div id="Home">
-      <div className="home-background">
-        <img
-          src={homeBackground}
-          alt="background-image"
-          className="background-image"
-        />
-      </div>
+    <div className="personalized-workout-page">
       <div className="navbar">
         <div style={{ display: "flex" }}>
           <img src={logo} alt="GymFluencer Logo" className="logo" />
@@ -33,10 +20,10 @@ const Home = () => {
           </span>
         </div>
         <AnchorLink className="navlink" href="#Home">
-          Home
+          <Link to="/">Home</Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#About">
-          About
+          <Link to="/">About</Link>
         </AnchorLink>
         <AnchorLink
           className="navlink"
@@ -61,41 +48,46 @@ const Home = () => {
           )}
         </AnchorLink>
         <AnchorLink className="navlink" href="#Benefits">
-          Benefits
+          <Link to="/">Benefits</Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#Blogs">
-          Blogs
+          <Link to="/">Blogs</Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#Contact">
-          Contact
+          <Link to="/">Contact</Link>
         </AnchorLink>
         <AnchorLink className="navlink">
-          <span className="join-us-link">Join Us Now</span>
+          <Link to="/">
+            <span className="join-us-link">Join Us Now</span>
+          </Link>
         </AnchorLink>
       </div>
-      <div className="trusted-users">Trusted by 3+ million users</div>
-      <div className="home-heading">
-        <span>Track Your Fitness</span>
-        <span>Journey</span>
+      <div className="personalized-workout-container">
+        <div className="personalized-workout-bgimg"></div>
+        <div className="personalized-workout-form-container">
+          <div className="personalized-workout-form-container-heading">
+            Personalized Workout Plan Form
+          </div>
+          <div className="personalized-workout-form-container-head1">
+            1. Fitness Goals
+          </div>
+          <div className="personalized-workout-form-container-head2">
+            2. Current Fitness Level
+          </div>
+          <div className="personalized-workout-form-container-head3">
+            3. Physical Measurements and Health Info
+          </div>
+          <div className="personalized-workout-form-container-head4">
+            4. Workout Preferences
+          </div>
+          <div className="personalized-workout-form-container-head5">
+            5. Schedule and Time Availability
+          </div>
+        </div>
       </div>
-      <div className="subtitle">
-        <pre>
-          Discover the ultimate fitness companion with GymFluencer. Effortlessly
-          log you workouts
-        </pre>
-        <pre>
-          count reps and track calories burned. Stay motivated and achieve your
-          goals with ease.
-        </pre>
-      </div>
-      <About />
-      <HomeVideo />
-      <Services />
-      <Benefits />
-      <Blogs />
-      <Contact />
+      <Support4 />
     </div>
   );
 };
 
-export default Home;
+export default PersonalizedWorkout;

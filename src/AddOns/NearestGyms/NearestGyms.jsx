@@ -70,9 +70,18 @@ const NearestGyms = () => {
             <div className="nearest-gyms-detail-image">
               <img src={gym.image} alt={gym.name} className="gym-img" />
             </div>
-            <div className="nearest-gyms-detail-name">{gym.name}</div>
-            <div className="nearest-gyms-detail-phone">{gym.phone}</div>
-            <div className="nearest-gyms-detail-address">{gym.address}</div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "5vh",
+                padding: "3vh",
+              }}
+            >
+              <div className="nearest-gyms-detail-name">{gym.name}</div>
+              <div className="nearest-gyms-detail-phone">{gym.phone}</div>
+              <div className="nearest-gyms-detail-address">{gym.address}</div>
+            </div>
           </div>
         ))}
       </div>

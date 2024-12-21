@@ -1,0 +1,99 @@
+.support-page {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 250vh;
+}
+.support-title {
+  position: absolute;
+  top: 20vh;
+  left: 42%;
+  font-size: 24px;
+  font-weight: 600;
+}
+.support-logo {
+  width: 4vw;
+  height: 6vh;
+  border-radius: 20px;
+}
+.support-subtitle {
+  position: absolute;
+  top: 40vh;
+  left: 38%;
+  font-size: 22px;
+  font-weight: 400;
+  width: 24vw;
+  line-height: 1.2;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+}
+.support-email {
+  position: absolute;
+  top: 60vh;
+  left: 38%;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 20px;
+  border: 0.05vh solid gray;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+}
+.support-links {
+  position: absolute;
+  top: 78vh;
+  left: 30%;
+  display: flex;
+  gap: 6vw;
+  font-size: 20px;
+  font-weight: 400;
+}
+.support-hr {
+  position: absolute;
+  top: 83vh;
+  left: 3vw;
+  width: 92vw;
+  height: 0.005vh;
+  background-color: gray;
+}
+.support-copyright {
+  position: absolute;
+  top: 92vh;
+  left: 3vw;
+  font-size: 16px;
+  font-weight: 400;
+}
+.support-linkedin {
+  position: absolute;
+  top: 90vh;
+  font-size: 20px;
+  padding: 10px;
+  left: 82vw;
+  border: 0.001vh solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.support-twitter {
+  position: absolute;
+  top: 90vh;
+  left: 88vw;
+  font-size: 20px;
+  padding: 10px;
+  border: 0.001vh solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+.support-instagram {
+  position: absolute;
+  top: 90vh;
+  left: 94vw;
+  font-size: 20px;
+  padding: 10px;
+  border: 0.001vh solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}

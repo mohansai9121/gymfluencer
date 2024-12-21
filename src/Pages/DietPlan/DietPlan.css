@@ -1,0 +1,99 @@
+.diet-plan-page {
+  width: 100vw;
+  height: 220vh;
+  position: relative;
+}
+.diet-plan-title {
+  position: absolute;
+  top: 20vh;
+  left: 40%;
+  font-family: "protiqueBold";
+  font-size: 60px;
+  color: #ee3918;
+  font-weight: 600;
+}
+.diet-plan-subtitle {
+  position: absolute;
+  top: 45vh;
+  left: 28%;
+  width: 50%;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  width: 42vw;
+  line-height: 1.1;
+  font-size: 20px;
+}
+.diet-plan-offer {
+  position: absolute;
+  top: 85vh;
+  left: 38%;
+  font-family: "protiqueBold";
+  font-size: 50px;
+  color: #ee3918;
+}
+.diet-plan-offer-img1 {
+  position: absolute;
+  top: 100vh;
+  left: 13vw;
+}
+.diet-plan-offer-img {
+  width: 10vw;
+  height: 22vh;
+  border-radius: 15px;
+}
+.diet-plan-offer-img2 {
+  position: absolute;
+  top: 100vh;
+  left: 45vw;
+}
+.diet-plan-offer-img3 {
+  position: absolute;
+  top: 100vh;
+  left: 75vw;
+}
+.diet-plan-offer-text1 {
+  position: absolute;
+  top: 125vh;
+  left: 11vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.diet-plan-offer-text2 {
+  position: absolute;
+  top: 125vh;
+  left: 44vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.diet-plan-offer-text3 {
+  position: absolute;
+  top: 125vh;
+  left: 75vw;
+  font-family: "protiqueBold";
+  font-size: 20px;
+}
+.diet-plan-offer-why {
+  position: absolute;
+  top: 140vh;
+  left: 35%;
+  font-family: "protiqueBold";
+  font-size: 60px;
+  color: #ee3918;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  width: 30vw;
+  line-height: 1.1;
+}
+.diet-plan-offer-why-ans {
+  position: absolute;
+  top: 180vh;
+  left: 30%;
+  font-size: 20px;
+  width: 42vw;
+  line-height: 1.1;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
