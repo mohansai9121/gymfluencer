@@ -1,5 +1,6 @@
 .contact-page {
-  position: relative;
+  position: absolute;
+  top: 1270vh;
   width: 100vw;
   height: 250vh;
 }

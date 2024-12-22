@@ -35,6 +35,23 @@
   margin-left: 16%;
   font-size: 22px;
 }
+.options {
+  position: absolute;
+  top: 8.3vh;
+  left: 21vw;
+  border-radius: 10px;
+  z-index: 1;
+}
+.option-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3vh;
+  border-radius: 10px;
+  gap: 5vh;
+}
 .navlink {
   text-decoration: none;
   color: white;
@@ -48,16 +65,19 @@
   transition: 0.5s;
 }
 .trusted-users {
-  padding: 15px;
+  padding: 10px;
   border: 1px solid gray;
   border-radius: 20px;
-  font-size: 18px;
-  font-family: "protique";
-  top: 120px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
+  line-height: 1.1;
+  top: 15vh;
   margin: 2px;
   z-index: 1;
-  width: 200px;
+  width: 20vw;
   text-align: center;
   left: 40%;
 }
@@ -73,11 +93,24 @@
   justify-content: center;
   left: 18%;
   font-size: 18px;
-  animation: scrolling-y 3s linear 1s;
+}
+.animate-subtitle {
+  position: absolute;
+  top: 380px;
+  z-index: 1;
+  color: white;
+  font-family: "protique";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: 18%;
+  font-size: 18px;
+  animation: scrolling-y 3s linear;
 }
 @keyframes scrolling-y {
   0% {
-    transform: translateY(300%);
+    transform: translateY(200%);
   }
   100% {
     transform: translateY(0%);
@@ -105,7 +138,9 @@
   left: 250px;
   gap: 70px;
   font-weight: bolder;
-  animation: scrolling 3s linear 1s;
+}
+.animate-heading {
+  animation: scrolling 3s linear;
 }
 @keyframes scrolling {
   0% {

@@ -11,9 +11,22 @@ import { FaAngleDown } from "react-icons/fa";
 import HomeVideo from "../HomeVideo/HomeVideo";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
+import trustedUsers from "../../assets/Images/trusted-users-logo.png";
 
 const Home = () => {
   const [isOptions, setIsOptions] = useState(false);
+  const [animationOn, setAnimationOn] = useState(false);
+  useEffect(() => {
+    setAnimationOn(true);
+    const interval = setInterval(() => {
+      setAnimationOn(true);
+      setTimeout(() => {
+        setAnimationOn(false);
+      }, 3010);
+    }, 10000);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div id="Home">
       <div className="home-background">
@@ -46,20 +59,29 @@ const Home = () => {
         >
           Our Services
           <FaAngleDown />
-          {isOptions && (
-            <>
-              <Link to="/workoutplans">Workout Plans</Link>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <Link to="/diet">Diet Plans</Link>
-            </>
-          )}
         </AnchorLink>
+        <div className="options">
+          {isOptions && (
+            <div
+              className="option-display"
+              onMouseEnter={() => setIsOptions(true)}
+              onMouseLeave={() => setIsOptions(false)}
+            >
+              <Link
+                to="/workoutplans"
+                style={{ textDecoration: "underline", color: "white" }}
+              >
+                Workout Plans
+              </Link>
+              <Link
+                to="/diet"
+                style={{ textDecoration: "underline", color: "white" }}
+              >
+                Diet Plans
+              </Link>
+            </div>
+          )}
+        </div>
         <AnchorLink className="navlink" href="#Benefits">
           Benefits
         </AnchorLink>
@@ -73,12 +95,21 @@ const Home = () => {
           <span className="join-us-link">Join Us Now</span>
         </AnchorLink>
       </div>
-      <div className="trusted-users">Trusted by 3+ million users</div>
-      <div className="home-heading">
-        <span>Track Your Fitness</span>
-        <span>Journey</span>
+      <div className="trusted-users">
+        <img
+          src={trustedUsers}
+          alt="Trusted users image"
+          style={{ width: "2.5vw", height: "5vh" }}
+        />
+        Trusted by 3+ million users
       </div>
-      <div className="subtitle">
+      <div className="home-heading">
+        <span className={animationOn ? "animate-heading" : ""}>
+          Track Your Fitness
+        </span>
+        <span className={animationOn ? "animate-heading" : ""}>Journey</span>
+      </div>
+      <div className={animationOn ? "animate-subtitle" : "subtitle"}>
         <pre>
           Discover the ultimate fitness companion with GymFluencer. Effortlessly
           log you workouts

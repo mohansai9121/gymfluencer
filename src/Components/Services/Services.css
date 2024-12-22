@@ -1,5 +1,6 @@
 .services-page {
-  position: relative;
+  position: absolute;
+  top: 360vh;
   width: 100vw;
   height: 140vh;
   overflow: hidden;
@@ -53,6 +54,9 @@
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+.imageText1:hover {
+  background: rgba(0, 0, 0, 0);
+}
 .imageText2 {
   position: absolute;
   top: 234px;
@@ -62,6 +66,9 @@
   text-align: center;
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
+}
+.imageText2:hover {
+  background: rgba(0, 0, 0, 0);
 }
 .imageText3 {
   position: absolute;
@@ -73,6 +80,9 @@
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+.imageText3:hover {
+  background: rgba(0, 0, 0, 0);
+}
 .imageText4 {
   position: absolute;
   top: 234px;
@@ -83,6 +93,9 @@
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
 }
+.imageText4:hover {
+  background: rgba(0, 0, 0, 0);
+}
 .imageText5 {
   position: absolute;
   top: 234px;
@@ -92,6 +105,9 @@
   width: 20vw;
   z-index: 1;
   background: rgba(0, 0, 0, 0.7);
+}
+.imageText5:hover {
+  background: rgba(0, 0, 0, 0);
 }
 .text1 {
   position: absolute;

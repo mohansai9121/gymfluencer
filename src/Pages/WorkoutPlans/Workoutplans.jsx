@@ -22,10 +22,14 @@ const Workoutplans = () => {
           </span>
         </div>
         <AnchorLink className="navlink" href="#Home">
-          <Link to="/">Home</Link>
+          <Link to="/" className="navlink">
+            Home
+          </Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#About">
-          <Link to="/">About</Link>
+          <Link to="/" className="navlink">
+            About
+          </Link>
         </AnchorLink>
         <AnchorLink
           className="navlink"
@@ -35,31 +39,46 @@ const Workoutplans = () => {
         >
           Our Services
           <FaAngleDown />
-          {isOptions && (
-            <>
-              <Link to="/workoutplans">Workout Plans</Link>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <Link to="/diet">Diet Plans</Link>
-            </>
-          )}
         </AnchorLink>
+        <div className="options">
+          {isOptions && (
+            <div
+              className="option-display"
+              onMouseEnter={() => setIsOptions(true)}
+              onMouseLeave={() => setIsOptions(false)}
+            >
+              <Link
+                to="/workoutplans"
+                style={{ textDecoration: "underline", color: "white" }}
+              >
+                Workout Plans
+              </Link>
+              <Link
+                to="/diet"
+                style={{ textDecoration: "underline", color: "white" }}
+              >
+                Diet Plans
+              </Link>
+            </div>
+          )}
+        </div>
         <AnchorLink className="navlink" href="#Benefits">
-          <Link to="/">Benefits</Link>
+          <Link to="/" className="navlink">
+            Benefits
+          </Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#Blogs">
-          <Link to="/">Blogs</Link>
+          <Link to="/" className="navlink">
+            Blogs
+          </Link>
         </AnchorLink>
         <AnchorLink className="navlink" href="#Contact">
-          <Link to="/">Contact</Link>
+          <Link to="/" className="navlink">
+            Contact
+          </Link>
         </AnchorLink>
         <AnchorLink className="navlink">
-          <Link to="/">
+          <Link to="/" className="navlink">
             <span className="join-us-link">Join Us Now</span>
           </Link>
         </AnchorLink>

@@ -1,12 +1,13 @@
 import YouTube from "react-youtube";
 import { useState } from "react";
+import "./HomeVideo.css";
 
 const HomeVideo = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const opts = {
     height: "100%",
-    width: "100%",
+    width: "300%",
     playerVars: {
       autoplay: 0,
       controls: 1,

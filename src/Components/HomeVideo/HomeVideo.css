@@ -1,5 +1,6 @@
 .home-video-container {
-  position: relative;
+  position: absolute;
+  top: 260vh;
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -10,23 +11,16 @@
 }
 
 .video-wrapper {
-  position: relative;
+  position: absolute;
+  top: 5vh;
+  left: 15vw;
   width: auto;
   height: 90vh;
   max-width: 90%;
-  aspect-ratio: 16/9;
-  margin: 0 auto;
 }
 
 .home-video-container-video {
-  position: relative;
+  object-fit: fill;
   width: 100% !important;
   height: 100% !important;
-}
-
-.home-video-container-video iframe {
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

@@ -3,14 +3,18 @@ import "./About.css";
 const About = () => {
   return (
     <div className="About-page" id="About">
-      <div className="scroll-text">
-        <marquee className="marquee1">
-          Transformation / Motivation / Fitness / Transformation / Workout
-        </marquee>
-        <marquee className="marquee2">
-          Transformation / Motivation / Fitness / Transformation / Workout /
-          Strength
-        </marquee>
+      <div className="marquee1">
+        <span>
+          Transformation / Motivation / Fitness / Transformation / Workout&nbsp;
+          Transformation / Motivation / Fitness / Transformation / Workout&nbsp;
+        </span>
+      </div>
+      <div className="marquee2">
+        <span>
+          / Transformation / Motivation / Fitness / Transformation / Workout /
+          Strength&nbsp; / Transformation / Motivation / Fitness /
+          Transformation / Workout / Strength&nbsp;
+        </span>
       </div>
       <div className="about-heading">
         <pre>Your Fitness.</pre>
