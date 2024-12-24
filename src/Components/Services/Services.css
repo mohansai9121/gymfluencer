@@ -38,6 +38,8 @@
 }
 .grid-images {
   height: 80vh;
+  object-fit: cover;
+  overflow: hidden;
 }
 .text-on-images {
   display: flex;

@@ -2,7 +2,7 @@ import "./SelectWorkout1.css";
 
 const SelectWorkouts1 = () => {
   return (
-    <div className="select-workouts-page">
+    <div className="select-workouts1-page">
       <div className="workoutplans-select-title">Select Your Workout Plan</div>
       <div className="workoutplans-select-subtitle">
         Choose a workout plan that fits your goals, whether it’s building

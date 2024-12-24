@@ -158,6 +158,27 @@
   font-size: 12px;
   color: black;
 }
+.phone-signal {
+  position: absolute;
+  top: 2vw;
+  left: 38vh;
+  font-size: 12px;
+  color: black;
+}
+.phone-wifi {
+  position: absolute;
+  top: 2vw;
+  left: 41vh;
+  font-size: 12px;
+  color: black;
+}
+.phone-battery {
+  position: absolute;
+  top: 2vw;
+  left: 44vh;
+  font-size: 12px;
+  color: black;
+}
 .phone-timer {
   position: absolute;
   top: 15vh;
@@ -181,6 +202,27 @@
 .phone-dumbell {
   width: 18.3vw;
   max-height: 60vh;
+}
+.phone-play {
+  position: absolute;
+  top: 75vh;
+  color: black;
+  left: 9vw;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ee3918;
+}
+.phone-settings {
+  position: absolute;
+  top: 78vh;
+  color: #ee3918;
+  left: 4vw;
+}
+.phone-music {
+  position: absolute;
+  top: 78vh;
+  color: #ee3918;
+  left: 16.2vw;
 }
 .fitnessHub-component {
   position: absolute;

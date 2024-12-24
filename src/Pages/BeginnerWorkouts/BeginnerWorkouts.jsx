@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 import { FaAngleDown } from "react-icons/fa";
 import logo from "../../assets/Images/gymfluencer-logo.png";
 import { useState } from "react";
+import p1 from "./images/pushups.avif";
+import p2 from "./images/squats.jpg";
+import p3 from "./images/bridges.png";
+import p4 from "./images/ropejump.webp";
+import p5 from "./images/twists.jpg";
+import p6 from "./images/crunches.jpg";
+import p7 from "./images/wall.webp";
+import p8 from "./images/lunges.webp";
+import p9 from "./images/superman.jpg";
+import bg from "./images/background.webp";
 
 const BeginnerWorkouts = () => {
   const [isOptions, setIsOptions] = useState(false);
@@ -89,7 +99,9 @@ const BeginnerWorkouts = () => {
         foundation for long-term fitness success.
       </div>
       <div className="beginner-workouts-plan-container">
-        <div className="beginner-workouts-plan-bgimg"></div>
+        <div className="beginner-workouts-plan-bgimg">
+          <img src={bg} alt="bg" className="beginner-workouts-plan-bgimg" />
+        </div>
         <div className="beginner-workouts-plan-box">
           <div className="beginner-workouts-plan-goal">Goal</div>
           <div className="beginner-workouts-plan-goal-subtitle">
@@ -104,24 +116,88 @@ const BeginnerWorkouts = () => {
           <div className="beginner-workouts-plan-day1">
             Day 1: Full Body (Strength & Core)
           </div>
-          <div className="beginner-workouts-plan-day1-img1"></div>
-          <div className="beginner-workouts-plan-day1-img2"></div>
-          <div className="beginner-workouts-plan-day1-img3"></div>
-          <div className="beginner-workouts-plan-day1-matter-container"></div>
+          <div className="beginner-workouts-plan-day1-img1">
+            <img src={p1} alt="pushups" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Push Ups</div>
+          </div>
+          <div className="beginner-workouts-plan-day1-img2">
+            <img src={p2} alt="squats" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Squats</div>
+          </div>
+          <div className="beginner-workouts-plan-day1-img3">
+            <img src={p3} alt="bridges" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Glute Bridges</div>
+          </div>
+          <div className="beginner-workouts-plan-day1-matter-container">
+            <p>Warm-up: 5 mins brisk walk or light jog</p>
+            <ul>
+              <li>Push-Ups: 3 sets of 8-10 reps (kneeling if needed)</li>
+              <br />
+              <li>Bodyweight Squats: 3 sets of 12 reps</li>
+              <br />
+              <li>Glute Bridges: 3 sets of 12 reps</li>
+              <br />
+              <li>Plank Hold: 3 sets of 20 seconds</li>
+              <br />
+              <li>Mountain Climbers: 3 sets of 15 seconds</li>
+            </ul>
+          </div>
           <div className="beginner-workouts-plan-day2">
             Day 2: Cardio & Core
           </div>
-          <div className="beginner-workouts-plan-day2-img1"></div>
-          <div className="beginner-workouts-plan-day2-img2"></div>
-          <div className="beginner-workouts-plan-day2-img3"></div>
-          <div className="beginner-workouts-plan-day2-matter-container"></div>
+          <div className="beginner-workouts-plan-day2-img1">
+            <img src={p4} alt="ropejump" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Rope Jumps</div>
+          </div>
+          <div className="beginner-workouts-plan-day2-img2">
+            <img src={p5} alt="twists" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Russian Twists</div>
+          </div>
+          <div className="beginner-workouts-plan-day2-img3">
+            <img src={p6} alt="crunches" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Bicycle Crunches</div>
+          </div>
+          <div className="beginner-workouts-plan-day2-matter-container">
+            <p>Warm-up: 5 mins brisk walk or light jog</p>
+            <ul>
+              <li>Rope Jumps: 3 sets of 30 seconds</li>
+              <br />
+              <li>Russian Twists: 3 sets of 15 reps(per side)</li>
+              <br />
+              <li>Standing Knee Tucks: 3 sets of 15 reps per leg</li>
+              <br />
+              <li>Bicycle Crunches: 3 sets of 12 reps</li>
+            </ul>
+          </div>
           <div className="beginner-workouts-plan-day3">
             Day 3: Strength & Flexibility
           </div>
-          <div className="beginner-workouts-plan-day3-img1"></div>
-          <div className="beginner-workouts-plan-day3-img2"></div>
-          <div className="beginner-workouts-plan-day3-img3"></div>
-          <div className="beginner-workouts-plan-day3-matter-container"></div>
+          <div className="beginner-workouts-plan-day3-img1">
+            <img src={p7} alt="wall" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Wall Push-Ups</div>
+          </div>
+          <div className="beginner-workouts-plan-day3-img2">
+            <img src={p8} alt="lunges" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Lunges</div>
+          </div>
+          <div className="beginner-workouts-plan-day3-img3">
+            <img src={p9} alt="superman" className="beginner-org-img" />
+            <div className="beginner-org-img-title">Superman Exercise</div>
+          </div>
+          <div className="beginner-workouts-plan-day3-matter-container">
+            <p>Warm-up: 5 mins brisk walk or light jog</p>
+            <ul>
+              <li>Wall Push-Ups: 3 sets of 10 reps</li>
+              <br />
+              <li>Lunges: 3 sets of 10 reps per leg</li>
+              <br />
+              <li>Standing Calf Raises: 3 sets of 15 reps</li>
+              <br />
+              <li>Superman Exercise: 3 sets of 15 seconds</li>
+              <br />
+              <li>Stretching: 10-15 mins of full-body stretching</li>
+            </ul>
+          </div>
         </div>
       </div>
       <Support1 />

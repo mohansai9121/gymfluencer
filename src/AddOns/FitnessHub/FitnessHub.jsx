@@ -3,8 +3,37 @@ import caloryTrack from "../../assets/Images/caloriesTrack.png";
 import timerTrack from "../../assets/Images/timerTrack.png";
 import weightLift from "../../assets/Images/weightLift.jpg";
 import "./FitnessHub.css";
+import { useEffect, useState } from "react";
 
 const FitnessHub = () => {
+  const [currentPic, setCurrentPic] = useState(samplePlan);
+  const [firstPic, setFirstPic] = useState(caloryTrack);
+  const [secondPic, setSecondPic] = useState(timerTrack);
+  const [animationOn, setAnimationOn] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setAnimationOn(true);
+      if (currentPic === samplePlan) {
+        setCurrentPic(caloryTrack);
+        setFirstPic(timerTrack);
+        setSecondPic(samplePlan);
+      } else if (currentPic === caloryTrack) {
+        setCurrentPic(timerTrack);
+        setFirstPic(samplePlan);
+        setSecondPic(caloryTrack);
+      } else {
+        setCurrentPic(samplePlan);
+        setFirstPic(caloryTrack);
+        setSecondPic(timerTrack);
+      }
+      setTimeout(() => {
+        setAnimationOn(false);
+      }, 200);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [currentPic]);
+
   return (
     <div className="fitnessHubPage">
       <div className="fitnessHub-Content">
@@ -27,14 +56,14 @@ const FitnessHub = () => {
         </p>
       </div>
       <div className="images-scroll-down">
-        <div className="upper-image">
-          <img src={samplePlan} alt="Sample planning" className="img" />
+        <div className={animationOn ? "upper-image" : "upper-image1"}>
+          <img src={firstPic} alt="Sample planning" className="img" />
         </div>
-        <div className="center-image">
-          <img src={caloryTrack} alt="Tracking the calories" className="img" />
+        <div className={animationOn ? "center-image" : "center-image1"}>
+          <img src={secondPic} alt="Tracking the calories" className="img" />
         </div>
-        <div className="bottom-image">
-          <img src={timerTrack} alt="Tracking time" className="img" />
+        <div className={animationOn ? "bottom-image" : "bottom-image1"}>
+          <img src={currentPic} alt="Tracking time" className="img" />
         </div>
       </div>
     </div>

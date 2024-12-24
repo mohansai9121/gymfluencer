@@ -77,8 +77,26 @@
   position: absolute;
   bottom: 70vh;
   left: 5vw;
+  transform: translateY(-10%);
+  animation: down 0.2s ease-in-out infinite;
+}
+.upper-image1 {
+  width: 35vw;
+  height: 40vh;
+  position: absolute;
+  bottom: 70vh;
+  left: 5vw;
 }
 .center-image {
+  width: 40vw;
+  height: 50vh;
+  position: absolute;
+  bottom: 15vh;
+  left: 3vw;
+  transform: translateY(75%);
+  animation: down 0.2s ease-in-out infinite;
+}
+.center-image1 {
   width: 40vw;
   height: 50vh;
   position: absolute;
@@ -91,6 +109,23 @@
   position: absolute;
   top: 70vh;
   left: 5vw;
+  transform: translateY(100%);
+  animation: down 0.2s ease-in-out infinite;
+}
+.bottom-image1 {
+  width: 35vw;
+  height: 40vh;
+  position: absolute;
+  top: 70vh;
+  left: 5vw;
+}
+@keyframes down {
+  0% {
+    transform: translateY(65%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 .img {
   width: 100%;

@@ -1,4 +1,12 @@
-import { FaRegStar } from "react-icons/fa";
+import {
+  FaBatteryFull,
+  FaMusic,
+  FaPlay,
+  FaRegStar,
+  FaSign,
+  FaSignal,
+  FaWifi,
+} from "react-icons/fa";
 import "./Benefits.css";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { RiEarthLine } from "react-icons/ri";
@@ -10,6 +18,7 @@ import FitnessHub from "../../AddOns/FitnessHub/FitnessHub";
 import Transformations from "../../AddOns/Transformations/Transformations";
 import PeopleSay from "../../AddOns/PeopleSay/PeopleSay";
 import NearestGyms from "../../AddOns/NearestGyms/NearestGyms";
+import { IoSettings } from "react-icons/io5";
 
 const Benefits = () => {
   return (
@@ -52,10 +61,28 @@ const Benefits = () => {
       <div className="phone-img">
         <img src={iphone} alt="Phone" className="phone" />
         <div className="phone-time">9:41</div>
+        <div className="phone-signal">
+          <FaSignal />
+        </div>
+        <div className="phone-wifi">
+          <FaWifi />
+        </div>
+        <div className="phone-battery">
+          <FaBatteryFull />
+        </div>
         <div className="phone-timer">03:25</div>
         <div className="phone-skip">Skip Warm-up</div>
         <div className="dumbell-image">
           <img src={dumbell} alt="dumbell exercise" className="phone-dumbell" />
+        </div>
+        <div className="phone-play">
+          <FaPlay />
+        </div>
+        <div className="phone-settings">
+          <IoSettings />
+        </div>
+        <div className="phone-music">
+          <FaMusic />
         </div>
       </div>
       <div className="benefit3">
