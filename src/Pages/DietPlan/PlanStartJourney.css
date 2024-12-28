@@ -10,11 +10,76 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  border: 5px solid green;
+}
+.start-journey-bgimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.start-journey-background-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .start-journey-container {
   position: absolute;
-  top: 10%;
-  left: 15%;
-  background: rgba(238, 57, 24, 0.5);
+  top: 10vh;
+  left: 15vw;
+  width: 70vw;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.journey-content-display {
+  display: flex;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+.journey-left-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1vw;
+  top: 2vh;
+  width: 33vw;
+  height: 76vh;
+}
+.journey-heading {
+  color: #ee3918;
+  font-size: 40px;
+  white-space: normal;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.journey-matter {
+  font-size: 22px;
+  font-weight: 400;
+}
+.journey-right-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 500;
+  gap: 2vh;
+  position: absolute;
+  left: 36vw;
+  line-height: 1;
+  top: 2vh;
+  width: 33vw;
+  height: 76vh;
+  padding: 1vw;
+}
+.j-input-field {
+  width: 24vw;
+  height: 6vh;
+  font-size: 22px;
+  font-weight: 400;
+  border: 1px solid #ee3918;
+  border-radius: 4px;
 }

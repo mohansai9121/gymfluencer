@@ -12,13 +12,26 @@
   width: 100vw;
   height: 520vh;
 }
+.diet-plans-bgimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.diet-plans-bgimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .diet-plans-img1 {
   position: absolute;
   top: 30vh;
   left: 2vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img1-text {
   position: absolute;
@@ -31,6 +44,12 @@
   line-height: 1;
   word-wrap: break-word;
   width: 34vw;
+}
+.diet-org-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 .diet-plans-img1-description {
   position: absolute;
@@ -49,7 +68,6 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img2-text {
   position: absolute;
@@ -81,7 +99,6 @@
   left: 2vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img3-text {
   position: absolute;
@@ -113,7 +130,6 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img4-text {
   position: absolute;
@@ -144,8 +160,6 @@
   top: 240vh;
   left: 2vw;
   width: 40vw;
-  height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img5-text {
   position: absolute;
@@ -177,7 +191,6 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img6-text {
   position: absolute;
@@ -209,7 +222,6 @@
   left: 2vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img7-text {
   position: absolute;
@@ -241,7 +253,6 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img8-text {
   position: absolute;
@@ -273,7 +284,6 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
-  background-color: #ee3918;
 }
 .diet-plans-img9-text {
   position: absolute;

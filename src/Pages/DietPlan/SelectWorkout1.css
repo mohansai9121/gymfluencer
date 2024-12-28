@@ -30,7 +30,12 @@
   left: 3vw;
   width: 20vw;
   height: 70vh;
-  background-color: #ee3918;
+}
+.diet-workouts-org-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 3px;
 }
 .workout-beginner-title {
   position: absolute;
@@ -58,7 +63,6 @@
   left: 27vw;
   width: 20vw;
   height: 70vh;
-  background-color: #ee3918;
 }
 .workout-intermediate-title {
   position: absolute;
@@ -86,7 +90,6 @@
   left: 50vw;
   width: 20vw;
   height: 70vh;
-  background-color: #ee3918;
 }
 .workout-advanced-title {
   position: absolute;
@@ -114,7 +117,6 @@
   left: 74vw;
   width: 20vw;
   height: 70vh;
-  background-color: #ee3918;
 }
 .workout-personalized-title {
   position: absolute;
