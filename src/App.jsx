@@ -7,6 +7,9 @@ import PersonalizedWorkout from "./Pages/PersonalizedWorkout/PersonalizedWorkout
 import AdvancedWorkouts from "./Pages/AdvancedWorkouts/AdvancedWorkouts";
 import DietPlan from "./Pages/DietPlan/DietPlan";
 import WeightLossDietPlan from "./Pages/DietPlansDetails/WeightLossDietPlan/WeightLossDietPlan";
+import MuscleBuildingPlan from "./Pages/DietPlansDetails/MuscleBuildingPlan/MuscleBuildingPlan";
+import EndurancePlan from "./Pages/DietPlansDetails/EndurancePlan/EndurancePlan";
+import IntermittentFasting from "./Pages/DietPlansDetails/IntermittentFasting/IntermittentFasting";
 const App = () => {
   return (
     <BrowserRouter>
@@ -25,6 +28,18 @@ const App = () => {
         <Route path="/advanced-workout-plan" element={<AdvancedWorkouts />} />
         <Route path="/diet" element={<DietPlan />} />
         <Route path="/weight-loss-diet-plan" element={<WeightLossDietPlan />} />
+        <Route
+          path="/muscle-building-diet-plan"
+          element={<MuscleBuildingPlan />}
+        />
+        <Route
+          path="/endurance-performance-diet-plans"
+          element={<EndurancePlan />}
+        />
+        <Route
+          path="/intermittent-fasting-diet-plan"
+          element={<IntermittentFasting />}
+        />
       </Routes>
     </BrowserRouter>
   );

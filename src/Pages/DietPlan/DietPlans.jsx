@@ -43,7 +43,7 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link to="/muscle-building-diet-plan" style={{ textDecoration: "none" }}>
         <div className="diet-plans-img3">
           <img
             src={img3}
@@ -67,7 +67,10 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link
+        to="/endurance-performance-diet-plans"
+        style={{ textDecoration: "none" }}
+      >
         <div className="diet-plans-img5">
           <img src={img5} alt="endurance diet image" className="diet-org-img" />
           <div className="diet-plans-img5-text">
@@ -87,7 +90,10 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link
+        to="/intermittent-fasting-diet-plan"
+        style={{ textDecoration: "none" }}
+      >
         <div className="diet-plans-img7">
           <img
             src={img7}
