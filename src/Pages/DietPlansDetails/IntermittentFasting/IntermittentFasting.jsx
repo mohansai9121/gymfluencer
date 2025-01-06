@@ -110,7 +110,7 @@ const IntermittentFasting = () => {
       <div className="intermittent-fasting-diet-plan-subtitle">
         An <b>Intermittent Fasting</b> Diet Plan involves cycling between
         periods of eating and fasting, designed to improve fat loss, enhance
-        metabolic health, and promote cellular repair. It doesn't focus on
+        metabolic health, and promote cellular repair. It doesn&apos;t focus on
         specific food types but emphasizes when to eat, often featuring fasting
         windows like 16:8 or 18:6.
       </div>

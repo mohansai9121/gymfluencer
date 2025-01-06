@@ -10,6 +10,10 @@ import WeightLossDietPlan from "./Pages/DietPlansDetails/WeightLossDietPlan/Weig
 import MuscleBuildingPlan from "./Pages/DietPlansDetails/MuscleBuildingPlan/MuscleBuildingPlan";
 import EndurancePlan from "./Pages/DietPlansDetails/EndurancePlan/EndurancePlan";
 import IntermittentFasting from "./Pages/DietPlansDetails/IntermittentFasting/IntermittentFasting";
+import CuttingDiet from "./Pages/DietPlansDetails/CuttingDiet/CuttingDiet";
+import KetoDiet from "./Pages/DietPlansDetails/KetoDiet/KetoDiet";
+import VeganDiet from "./Pages/DietPlansDetails/VeganDiet/VeganDiet";
+import PaleoDiet from "./Pages/DietPlansDetails/PaleoDiet/PaleoDiet";
 const App = () => {
   return (
     <BrowserRouter>
@@ -40,6 +44,10 @@ const App = () => {
           path="/intermittent-fasting-diet-plan"
           element={<IntermittentFasting />}
         />
+        <Route path="/cutting-diet-plan" element={<CuttingDiet />} />
+        <Route path="/keto-meal-plan" element={<KetoDiet />} />
+        <Route path="/vegetarianvegan-diet-plan" element={<VeganDiet />} />
+        <Route path="/paleodietplan" element={<PaleoDiet />} />
       </Routes>
     </BrowserRouter>
   );

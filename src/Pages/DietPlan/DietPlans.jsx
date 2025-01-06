@@ -58,7 +58,7 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link to="/cutting-diet-plan" style={{ textDecoration: "none" }}>
         <div className="diet-plans-img4">
           <img src={img4} alt="cutting diet image" className="diet-org-img" />
           <div className="diet-plans-img4-text">Cutting Diet Plan</div>
@@ -81,7 +81,7 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link to="/keto-meal-plan" style={{ textDecoration: "none" }}>
         <div className="diet-plans-img6">
           <img src={img6} alt="keto diet image" className="diet-org-img" />
           <div className="diet-plans-img6-text">Keto Diet (Ketogenic)</div>
@@ -108,7 +108,7 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link to="/vegetarianvegan-diet-plan" style={{ textDecoration: "none" }}>
         <div className="diet-plans-img8">
           <img src={img8} alt="vegan diet image" className="diet-org-img" />
           <div className="diet-plans-img8-text">Vegetarian/Vegan Diet Plan</div>
@@ -117,7 +117,7 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link to="/paleodietplan" style={{ textDecoration: "none" }}>
         <div className="diet-plans-img9">
           <img src={img9} alt="paleo diet image" className="diet-org-img" />
           <div className="diet-plans-img9-text">Paleo Diet Plan</div>
