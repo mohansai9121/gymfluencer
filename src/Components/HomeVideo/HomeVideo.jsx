@@ -7,7 +7,7 @@ const HomeVideo = () => {
 
   const opts = {
     height: "100%",
-    width: "300%",
+    width: "100%",
     playerVars: {
       autoplay: 0,
       controls: 1,

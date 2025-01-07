@@ -14,13 +14,42 @@
   position: absolute;
   top: 5vh;
   left: 15vw;
-  width: auto;
+  width: 70vw;
   height: 90vh;
-  max-width: 90%;
+  max-width: 90vw;
 }
 
 .home-video-container-video {
   object-fit: fill;
   width: 100% !important;
   height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .home-video-container {
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .video-wrapper {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    height: 35vh;
+    max-width: 90vw;
+  }
+
+  .home-video-container-video {
+    object-fit: fill;
+    width: 100% !important;
+    height: 100% !important;
+  }
 }

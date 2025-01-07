@@ -28,10 +28,10 @@ const Benefits = () => {
         Our Benefits
       </div>
       <div className="title">Discover GymFluencer Benefits</div>
-      <div className="subtitle1">
+      <div className="benefits-subtitle1">
         Unlock your full potential with GymFluencer your personal fitness
+        partner for progress and motivation
       </div>
-      <div className="subtitle2">partner for progress and motivation</div>
       <div className="benefit1">
         <div className="benefit-icon">
           <MdOutlinePeopleAlt className="icon" />

@@ -11,8 +11,6 @@ const Services = () => {
       <div className="services-title">OUR SERVICES</div>
       <pre className="services-subtitle1">
         GymFluencer offers 5 essential services to help you
-      </pre>
-      <pre className="services-subtitle2">
         achieve your fitness goals with ease and flexibility
       </pre>
       <div className="images-grid">

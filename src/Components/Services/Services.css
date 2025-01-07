@@ -13,21 +13,18 @@
   position: absolute;
   top: 7vh;
   font-size: 60px;
-  left: 35%;
+  left: 33%;
 }
 .services-subtitle1 {
   font-size: 18px;
   position: absolute;
   text-align: center;
   top: 20vh;
-  left: 33%;
-}
-.services-subtitle2 {
-  font-size: 18px;
-  position: absolute;
-  text-align: center;
-  top: 25vh;
-  left: 33%;
+  left: 30%;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 40vw;
+  line-height: 1.1;
 }
 .images-grid {
   display: grid;
@@ -156,4 +153,162 @@
   z-index: 1;
   font-family: "protiqueBold";
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .services-page {
+    position: absolute;
+    top: 245vh;
+    width: 100vw;
+    height: 140vh;
+    overflow: hidden;
+  }
+  .services-title {
+    color: #ee3918;
+    font-family: cursive;
+    font-weight: 900;
+    position: absolute;
+    top: 7vh;
+    font-size: 30px;
+    left: 25%;
+  }
+  .services-subtitle1 {
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    top: 12vh;
+    left: 5%;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 90vw;
+    line-height: 1.05;
+  }
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+    position: absolute;
+    top: 250px;
+    z-index: 0;
+    cursor: pointer;
+  }
+  .grid-images {
+    height: 20vh;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .text-on-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageText1 {
+    position: absolute;
+    top: 234px;
+    left: 0vw;
+    text-align: center;
+    height: 20vh;
+    width: 20vw;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .imageText1:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .imageText2 {
+    position: absolute;
+    top: 234px;
+    left: 20vw;
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .imageText2:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .imageText3 {
+    position: absolute;
+    top: 234px;
+    left: 40vw;
+    height: 20vh;
+    text-align: center;
+    width: 20vw;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .imageText3:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .imageText4 {
+    position: absolute;
+    top: 234px;
+    left: 60vw;
+    height: 20vh;
+    text-align: center;
+    width: 20vw;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .imageText4:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .imageText5 {
+    position: absolute;
+    top: 234px;
+    left: 80vw;
+    height: 20vh;
+    text-align: center;
+    width: 20vw;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .imageText5:hover {
+    background: rgba(0, 0, 0, 0);
+  }
+  .text1 {
+    position: absolute;
+    top: 220px;
+    left: 8vw;
+    font-family: "protiqueBold";
+    font-size: 16px;
+    z-index: 1;
+  }
+  .text2 {
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    left: 6vw;
+    font-family: "protiqueBold";
+    font-size: 16px;
+  }
+  .text3 {
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    left: 6vw;
+    font-family: "protiqueBold";
+    font-size: 16px;
+  }
+  .text4 {
+    position: absolute;
+    top: 220px;
+    z-index: 1;
+    left: 5.5vw;
+    font-family: "protiqueBold";
+    font-size: 16px;
+  }
+  .text5 {
+    position: absolute;
+    top: 220px;
+    left: 5.5vw;
+    z-index: 1;
+    font-family: "protiqueBold";
+    font-size: 16px;
+  }
 }

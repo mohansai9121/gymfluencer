@@ -112,3 +112,123 @@
   line-height: 1;
   color: gray;
 }
+
+@media (max-width: 768px) {
+  .About-page {
+    width: 100vw;
+    height: 150vh;
+    position: absolute;
+    top: 76vh;
+    margin: 1px;
+    overflow: hidden;
+  }
+
+  .marquee1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3vh;
+  }
+
+  .marquee1 span {
+    display: inline-block;
+    font-family: "protiqueBold";
+    font-size: 24px;
+    animation: marquee1 20s linear infinite;
+  }
+
+  .marquee2 {
+    position: absolute;
+    top: 6vh;
+    width: 100%;
+    height: 10vh;
+  }
+
+  .marquee2 span {
+    display: inline-block;
+    font-family: "protiqueBold";
+    font-size: 24px;
+    color: #ee3918;
+    opacity: 0.4;
+    animation: marquee2 20s linear infinite;
+    padding-right: 50px; /* Space between repetitions */
+  }
+
+  @keyframes marquee1 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes marquee2 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .about-heading {
+    position: absolute;
+    top: 18vh;
+    left: 25%;
+    font-family: "protiqueBold";
+    font-size: 32px;
+    line-height: 0.5;
+    font-weight: bolder;
+    color: #ee3918;
+  }
+  .about-subheading {
+    position: absolute;
+    top: 35vh;
+    font-family: "Times New Roman", Times, serif;
+    left: 20%;
+    font-weight: 100;
+    font-size: 16px;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 60vw;
+    line-height: 1.1;
+  }
+  .animate-about-subtitle {
+    animation: scrolling-y 3s linear;
+  }
+  @keyframes scrolling-y {
+    0% {
+      transform: translateY(300%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .align-row-wise {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 620px;
+    left: 2%;
+  }
+  .box {
+    width: 350px;
+    height: 150px;
+    padding: 5px 20px;
+  }
+  .box h1 {
+    font-size: 32px;
+  }
+  .line {
+    opacity: 0.6;
+    margin: 0px 2px 0px 2px;
+    height: 1px;
+  }
+  .content {
+    line-height: 1;
+    color: gray;
+  }
+}

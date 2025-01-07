@@ -127,3 +127,135 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .person-card {
+    width: 95vw;
+    height: 80vh;
+    position: relative;
+  }
+  .person-card-title {
+    position: absolute;
+    top: 6vh;
+    left: 15%;
+    width: 80vw;
+    font-family: "protique";
+    font-size: 30px;
+    line-height: 1;
+    color: #ee3918;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .person-card-name {
+    position: absolute;
+    top: 16vh;
+    left: 10vw;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .person-card-age {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .person-card-weeks {
+    position: absolute;
+    top: 24vh;
+    left: 10vw;
+    font-size: 16px;
+  }
+  .person-card-before {
+    position: absolute;
+    top: 16vh;
+    left: 68vw;
+    font-size: 12px;
+  }
+  .person-card-after {
+    position: absolute;
+    top: 16vh;
+    left: 82vw;
+    font-size: 12px;
+  }
+  .person-card-weight {
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+    font-size: 12px;
+  }
+  .person-card-body-fast {
+    position: absolute;
+    top: 24vh;
+    left: 50vw;
+    font-size: 12px;
+  }
+  .person-card-before-weight {
+    position: absolute;
+    top: 20vh;
+    left: 68vw;
+    font-size: 12px;
+  }
+  .person-card-after-weight {
+    position: absolute;
+    top: 20vh;
+    left: 82vw;
+    font-size: 12px;
+  }
+  .person-card-before-bmi {
+    position: absolute;
+    top: 24vh;
+    left: 68vw;
+    font-size: 12px;
+  }
+  .person-card-after-bmi {
+    position: absolute;
+    top: 24vh;
+    left: 82vw;
+    font-size: 12px;
+  }
+  .person-card-before-image {
+    position: absolute;
+    top: 32vh;
+    left: 4vw;
+    width: 44vw;
+    height: 54vh;
+    object-fit: cover;
+  }
+  .person-card-after-image {
+    position: absolute;
+    top: 32vh;
+    left: 52vw;
+    width: 44vw;
+    height: 54vh;
+  }
+  .person-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .person-card-hr {
+    position: absolute;
+    top: 17vh;
+    left: 54vw;
+    width: 36vw;
+  }
+  .person-card-beforeimg-text {
+    position: absolute;
+    top: 30vh;
+    left: 18vw;
+    font-size: 20px;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .person-card-afterimg-text {
+    position: absolute;
+    top: 30vh;
+    left: 68vw;
+    font-size: 20px;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}

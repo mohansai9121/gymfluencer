@@ -40,7 +40,7 @@ const Home = () => {
         <div style={{ display: "flex" }}>
           <img src={logo} alt="GymFluencer Logo" className="logo" />
           <span
-            style={{ fontSize: "18px", textAlign: "center", marginTop: "12px" }}
+            className="navbar-logo-name"
           >
             GymFluencer
           </span>
@@ -99,7 +99,7 @@ const Home = () => {
         <img
           src={trustedUsers}
           alt="Trusted users image"
-          style={{ width: "2.5vw", height: "5vh" }}
+          className="trusted-users-logo"
         />
         Trusted by 3+ million users
       </div>
@@ -110,14 +110,10 @@ const Home = () => {
         <span className={animationOn ? "animate-heading" : ""}>Journey</span>
       </div>
       <div className={animationOn ? "animate-subtitle" : "subtitle"}>
-        <pre>
           Discover the ultimate fitness companion with GymFluencer. Effortlessly
           log you workouts
-        </pre>
-        <pre>
           count reps and track calories burned. Stay motivated and achieve your
           goals with ease.
-        </pre>
       </div>
       <About />
       <HomeVideo />

@@ -128,12 +128,7 @@ const NearestGyms = () => {
               <img src={gym.image} alt={gym.name} className="gym-img" />
             </div>
             <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "5vh",
-                padding: "3vh",
-              }}
+              className="each-gym-details"
             >
               <div className="nearest-gyms-detail-name">{gym.name}</div>
               <div className="nearest-gyms-detail-phone">{gym.phone}</div>

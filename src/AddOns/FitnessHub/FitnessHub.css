@@ -132,3 +132,141 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .fitnessHubPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+  }
+  .fitnessHub-Content {
+    width: 90vw;
+    height: 60vh;
+    border: 1px solid gray;
+    border-radius: 25px;
+  }
+  .backgoundLift {
+    width: 90vw;
+    height: 42vh;
+    position: absolute;
+    opacity: 0.3;
+    border-radius: 25px;
+    top: 0vh;
+    left: 5vw;
+  }
+  .fitnesshub-title {
+    color: #ee3918;
+    font-family: cursive;
+    font-size: 30px;
+    position: absolute;
+    top: 1vh;
+    left: 8vw;
+    width: 80vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .hub-content1 {
+    font-size: 16px;
+    position: absolute;
+    top: 12vh;
+    left: 8vw;
+    width: 70vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .hub-content2 {
+    font-size: 16px;
+    position: absolute;
+    top: 18vh;
+    left: 8vw;
+    width: 70vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .hub-content3 {
+    font-size: 16px;
+    position: absolute;
+    top: 28vh;
+    left: 8vw;
+    width: 70vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .images-scroll-down {
+    width: 90vw;
+    height: 60vh;
+    border: 1px solid gray;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+  .upper-image {
+    width: 60vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 45vh;
+    left: 14vw;
+    transform: translateY(-10%);
+    animation: down 0.2s ease-in-out infinite;
+  }
+  .upper-image1 {
+    width: 60vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 45vh;
+    left: 14vw;
+  }
+  .center-image {
+    width: 80vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+    transform: translateY(75%);
+    animation: down 0.2s ease-in-out infinite;
+  }
+  .center-image1 {
+    width: 80vw;
+    height: 30vh;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+  }
+  .bottom-image {
+    width: 60vw;
+    height: 30vh;
+    position: absolute;
+    top: 45vh;
+    left: 14vw;
+    transform: translateY(100%);
+    animation: down 0.2s ease-in-out infinite;
+  }
+  .bottom-image1 {
+    width: 60vw;
+    height: 30vh;
+    position: absolute;
+    top: 45vh;
+    left: 14vw;
+  }
+  @keyframes down {
+    0% {
+      transform: translateY(65%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
