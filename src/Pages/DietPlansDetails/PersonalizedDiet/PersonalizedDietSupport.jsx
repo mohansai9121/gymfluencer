@@ -1,13 +1,13 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import "./MuscleBuildingSupport.css";
+import "./PersonalizedDietSupport.css";
 import logo from "../../../assets/Images/gymfluencer-logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 
-const Support3 = () => {
+const PersonalizedDietSupport = () => {
   return (
-    <div className="muscle-building-support-page">
+    <div className="personalized-diet-support-page">
       <div className="weight-loss-support-title">
         <img src={logo} alt="Logo" className="contact-logo" />
         GymFluencer
@@ -79,4 +79,4 @@ const Support3 = () => {
   );
 };
 
-export default Support3;
+export default PersonalizedDietSupport;

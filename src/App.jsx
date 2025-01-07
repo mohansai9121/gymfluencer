@@ -14,6 +14,7 @@ import CuttingDiet from "./Pages/DietPlansDetails/CuttingDiet/CuttingDiet";
 import KetoDiet from "./Pages/DietPlansDetails/KetoDiet/KetoDiet";
 import VeganDiet from "./Pages/DietPlansDetails/VeganDiet/VeganDiet";
 import PaleoDiet from "./Pages/DietPlansDetails/PaleoDiet/PaleoDiet";
+import PersonalizedDiet from "./Pages/DietPlansDetails/PersonalizedDiet/PersonalizedDiet";
 const App = () => {
   return (
     <BrowserRouter>
@@ -48,6 +49,10 @@ const App = () => {
         <Route path="/keto-meal-plan" element={<KetoDiet />} />
         <Route path="/vegetarianvegan-diet-plan" element={<VeganDiet />} />
         <Route path="/paleodietplan" element={<PaleoDiet />} />
+        <Route
+          path="/personalized-diet-plan-form"
+          element={<PersonalizedDiet />}
+        />
       </Routes>
     </BrowserRouter>
   );

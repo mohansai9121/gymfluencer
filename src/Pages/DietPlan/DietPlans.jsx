@@ -30,7 +30,10 @@ const DietPlans = () => {
           </div>
         </div>
       </Link>
-      <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
+      <Link
+        to="/personalized-diet-plan-form"
+        style={{ textDecoration: "none" }}
+      >
         <div className="diet-plans-img2">
           <img
             src={img2}

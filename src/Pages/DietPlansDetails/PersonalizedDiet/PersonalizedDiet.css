@@ -1,0 +1,104 @@
+.personalized-diet-page {
+  width: 100vw;
+  height: 400vh;
+  position: relative;
+}
+.personalized-diet-container-bg {
+  position: absolute;
+  top: 20vh;
+  left: 0vw;
+  width: 100vw;
+  height: 380vh;
+}
+.personalized-diet-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 380vh;
+}
+.personalized-diet-org-bgimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.personalized-diet-bgimg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 380vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.personalized-diet-content-container {
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  width: 80vw;
+  height: 360vh;
+  padding: 0vh 2vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  line-height: 1;
+}
+.personalized-diet-content-container p {
+  font-size: 18px;
+}
+.personalized-diet-title {
+  font-size: 40px;
+  text-align: center;
+  color: #ee3918;
+  font-weight: 700;
+  margin: 2vh 1vw;
+}
+.side-headings {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.side-headings h3 {
+  font-size: 30px;
+  color: #ee3918;
+}
+.flex-row {
+  display: flex;
+}
+.half-text-input {
+  width: 38vw;
+  height: 4vh;
+  margin: 0vh 0.5vw;
+  font-size: 16px;
+  border: 1px solid #ee3918;
+}
+.half-text-input:hover,
+.half-text-input:focus {
+  box-shadow: 0px 0px 5px #ee3918;
+}
+.full-text-input {
+  width: 78vw;
+  height: 4vh;
+  font-size: 16px;
+  border: 1px solid #ee3918;
+}
+.full-text-input:hover,
+.full-text-input:focus {
+  box-shadow: 0px 0px 5px #ee3918;
+}
+.personalized-diet-submit-button button {
+  width: 70vw;
+  border: none;
+  height: 8vh;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-left: 4vw;
+  text-align: center;
+  background-color: #ee3918;
+}
+.personalized-diet-submit-button button:hover,
+.personalized-diet-submit-button button:focus {
+  box-shadow: 0px 0px 5px #ee3918;
+}
