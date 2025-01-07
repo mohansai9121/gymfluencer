@@ -33,6 +33,23 @@
   width: 40vw;
   height: 60vh;
 }
+.diet-plans-img1-animate {
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollLeft 1s linear;
+}
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .diet-plans-img1-text {
   position: absolute;
   top: 70vh;
@@ -69,6 +86,23 @@
   width: 40vw;
   height: 60vh;
 }
+.diet-plans-img2-animate {
+  position: absolute;
+  top: 0vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollRight 1s linear;
+}
+@keyframes scrollRight {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .diet-plans-img2-text {
   position: absolute;
   top: 70vh;
@@ -99,6 +133,14 @@
   left: 2vw;
   width: 40vw;
   height: 60vh;
+}
+.diet-plans-img3-animate {
+  position: absolute;
+  top: 130vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollLeft 1s linear;
 }
 .diet-plans-img3-text {
   position: absolute;
@@ -131,6 +173,14 @@
   width: 40vw;
   height: 60vh;
 }
+.diet-plans-img4-animate {
+  position: absolute;
+  top: 100vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollRight 1s linear;
+}
 .diet-plans-img4-text {
   position: absolute;
   top: 70vh;
@@ -160,6 +210,13 @@
   top: 240vh;
   left: 2vw;
   width: 40vw;
+}
+.diet-plans-img5-animate {
+  position: absolute;
+  top: 240vh;
+  left: 2vw;
+  width: 40vw;
+  animation: scrollLeft 1s linear;
 }
 .diet-plans-img5-text {
   position: absolute;
@@ -192,6 +249,14 @@
   width: 40vw;
   height: 60vh;
 }
+.diet-plans-img6-animate {
+  position: absolute;
+  top: 200vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollRight 1s linear;
+}
 .diet-plans-img6-text {
   position: absolute;
   top: 70vh;
@@ -222,6 +287,14 @@
   left: 2vw;
   width: 40vw;
   height: 60vh;
+}
+.diet-plans-img7-animate {
+  position: absolute;
+  top: 340vh;
+  left: 2vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollLeft 1s linear;
 }
 .diet-plans-img7-text {
   position: absolute;
@@ -254,6 +327,14 @@
   width: 40vw;
   height: 60vh;
 }
+.diet-plans-img8-animate {
+  position: absolute;
+  top: 310vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollRight 1s linear;
+}
 .diet-plans-img8-text {
   position: absolute;
   top: 70vh;
@@ -284,6 +365,14 @@
   left: 55vw;
   width: 40vw;
   height: 60vh;
+}
+.diet-plans-img9-animate {
+  position: absolute;
+  top: 410vh;
+  left: 55vw;
+  width: 40vw;
+  height: 60vh;
+  animation: scrollRight 1s linear;
 }
 .diet-plans-img9-text {
   position: absolute;

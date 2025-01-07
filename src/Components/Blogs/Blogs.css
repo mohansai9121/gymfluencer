@@ -87,6 +87,7 @@
   border-radius: 5px;
   padding: 10px 10px;
   cursor: pointer;
+  z-index: 1;
 }
 .blog-text1 {
   position: absolute;
@@ -99,6 +100,7 @@
   word-wrap: break-word;
   line-height: 1;
   width: 40vw;
+  z-index: 1;
 }
 .blog-date1 {
   position: absolute;
@@ -107,6 +109,7 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
+  z-index: 1;
 }
 .blog-author1 {
   position: absolute;
@@ -115,6 +118,7 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 18px;
+  z-index: 1;
 }
 .blog-btn2 {
   position: absolute;
@@ -126,6 +130,7 @@
   border-radius: 5px;
   padding: 10px 10px;
   cursor: pointer;
+  z-index: 1;
 }
 .blog-text2 {
   position: absolute;
@@ -138,6 +143,7 @@
   word-wrap: break-word;
   line-height: 1;
   width: 24vw;
+  z-index: 1;
 }
 .blog-date2 {
   position: absolute;
@@ -146,6 +152,7 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
+  z-index: 1;
 }
 .blog-author2 {
   position: absolute;
@@ -154,6 +161,7 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
+  z-index: 1;
 }
 .blog-btn3 {
   position: absolute;
@@ -165,6 +173,7 @@
   border-radius: 5px;
   padding: 10px 10px;
   cursor: pointer;
+  z-index: 1;
 }
 .blog-text3 {
   position: absolute;
@@ -177,6 +186,7 @@
   word-wrap: break-word;
   line-height: 1;
   width: 24vw;
+  z-index: 1;
 }
 .blog-date3 {
   position: absolute;
@@ -185,6 +195,7 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
+  z-index: 1;
 }
 .blog-author3 {
   position: absolute;
@@ -193,4 +204,5 @@
   color: #fff;
   font-family: "protiqueBold";
   font-size: 16px;
+  z-index: 1;
 }

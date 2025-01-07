@@ -10,15 +10,35 @@ import img6 from "./images/keto.jpg";
 import img7 from "./images/intermittent.jpg";
 import img8 from "./images/vegan.webp";
 import img9 from "./images/paleo.jpg";
+import { useEffect, useState } from "react";
 
 const DietPlans = () => {
+  const [animationOn, setAnimationOn] = useState(false);
+
+  useEffect(() => {
+    setAnimationOn(true);
+    let interval = setInterval(() => {
+      setAnimationOn(true);
+      setTimeout(() => {
+        setAnimationOn(false);
+      }, 1000);
+    }, 6000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <div className="diet-plans-container">
       <div className="diet-plans-bgimg">
         <img src={bg} alt="Background" />
       </div>
       <Link to="/weight-loss-diet-plan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img1">
+        <div
+          className={
+            animationOn ? "diet-plans-img1-animate" : "diet-plans-img1"
+          }
+        >
           <img
             src={img1}
             alt="Weight loss diet image"
@@ -34,7 +54,11 @@ const DietPlans = () => {
         to="/personalized-diet-plan-form"
         style={{ textDecoration: "none" }}
       >
-        <div className="diet-plans-img2">
+        <div
+          className={
+            animationOn ? "diet-plans-img2-animate" : "diet-plans-img2"
+          }
+        >
           <img
             src={img2}
             alt="personalized diet image"
@@ -47,22 +71,32 @@ const DietPlans = () => {
         </div>
       </Link>
       <Link to="/muscle-building-diet-plan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img3">
-          <img
-            src={img3}
-            alt="muscle building diet image"
-            className="diet-org-img"
-          />
-          <div className="diet-plans-img3-text">
-            Muscle Building (Hypertrophy) Diet Plan
-          </div>
-          <div className="diet-plans-img3-description">
-            A description of the Muscle Building (Hypertrophy) Diet Plan.
-          </div>
+        <div
+          className={
+            animationOn ? "diet-plans-img3-animate" : "diet-plans-img3"
+          }
+        >
+          <span className="animate-left-plans">
+            <img
+              src={img3}
+              alt="muscle building diet image"
+              className="diet-org-img"
+            />
+            <div className="diet-plans-img3-text">
+              Muscle Building (Hypertrophy) Diet Plan
+            </div>
+            <div className="diet-plans-img3-description">
+              A description of the Muscle Building (Hypertrophy) Diet Plan.
+            </div>
+          </span>
         </div>
       </Link>
       <Link to="/cutting-diet-plan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img4">
+        <div
+          className={
+            animationOn ? "diet-plans-img4-animate" : "diet-plans-img4"
+          }
+        >
           <img src={img4} alt="cutting diet image" className="diet-org-img" />
           <div className="diet-plans-img4-text">Cutting Diet Plan</div>
           <div className="diet-plans-img4-description">
@@ -74,7 +108,11 @@ const DietPlans = () => {
         to="/endurance-performance-diet-plans"
         style={{ textDecoration: "none" }}
       >
-        <div className="diet-plans-img5">
+        <div
+          className={
+            animationOn ? "diet-plans-img5-animate" : "diet-plans-img5"
+          }
+        >
           <img src={img5} alt="endurance diet image" className="diet-org-img" />
           <div className="diet-plans-img5-text">
             Endurance/Performance Diet Plan
@@ -85,7 +123,11 @@ const DietPlans = () => {
         </div>
       </Link>
       <Link to="/keto-meal-plan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img6">
+        <div
+          className={
+            animationOn ? "diet-plans-img6-animate" : "diet-plans-img6"
+          }
+        >
           <img src={img6} alt="keto diet image" className="diet-org-img" />
           <div className="diet-plans-img6-text">Keto Diet (Ketogenic)</div>
           <div className="diet-plans-img6-description">
@@ -97,13 +139,21 @@ const DietPlans = () => {
         to="/intermittent-fasting-diet-plan"
         style={{ textDecoration: "none" }}
       >
-        <div className="diet-plans-img7">
+        <div
+          className={
+            animationOn ? "diet-plans-img7-animate" : "diet-plans-img7"
+          }
+        >
           <img
             src={img7}
             alt="intermittent fasting diet image"
             className="diet-org-img"
           />
-          <div className="diet-plans-img7-text">
+          <div
+            className={
+              animationOn ? "diet-plans-img7-animate" : "diet-plans-img7-text"
+            }
+          >
             Intermittent Fasting Diet Plan
           </div>
           <div className="diet-plans-img7-description">
@@ -112,7 +162,11 @@ const DietPlans = () => {
         </div>
       </Link>
       <Link to="/vegetarianvegan-diet-plan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img8">
+        <div
+          className={
+            animationOn ? "diet-plans-img8-animate" : "diet-plans-img8"
+          }
+        >
           <img src={img8} alt="vegan diet image" className="diet-org-img" />
           <div className="diet-plans-img8-text">Vegetarian/Vegan Diet Plan</div>
           <div className="diet-plans-img8-description">
@@ -121,7 +175,11 @@ const DietPlans = () => {
         </div>
       </Link>
       <Link to="/paleodietplan" style={{ textDecoration: "none" }}>
-        <div className="diet-plans-img9">
+        <div
+          className={
+            animationOn ? "diet-plans-img9-animate" : "diet-plans-img9"
+          }
+        >
           <img src={img9} alt="paleo diet image" className="diet-org-img" />
           <div className="diet-plans-img9-text">Paleo Diet Plan</div>
           <div className="diet-plans-img9-description">

@@ -38,6 +38,16 @@
 .nearest-gyms-detail:hover {
   background-color: #ea1414;
 }
+.selected-gym {
+  width: 52vw;
+  height: 30vh;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  padding: 1vh 2vh;
+  gap: 2vh;
+  background-color: #ea1414;
+}
 /*.nearest-gyms-detail-image {
   position: absolute;
   top: 1vh;

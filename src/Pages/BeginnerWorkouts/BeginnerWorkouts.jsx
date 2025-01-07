@@ -8,7 +8,7 @@ import { useState } from "react";
 import p1 from "./images/pushups.avif";
 import p2 from "./images/squats.jpg";
 import p3 from "./images/bridges.png";
-import p4 from "./images/ropejump.webp";
+import p4 from "./images/ropejump.jpg";
 import p5 from "./images/twists.jpg";
 import p6 from "./images/crunches.jpg";
 import p7 from "./images/wall.webp";
