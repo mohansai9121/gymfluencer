@@ -8,15 +8,15 @@ import { RiInstagramFill } from "react-icons/ri";
 const PlanSupport = () => {
   return (
     <div className="plan-support-page">
-      <div className="plan-support-title">
+      <div className="support-title">
         <img src={logo} alt="Logo" className="contact-logo" />
         GymFluencer
       </div>
-      <div className="plan-support-subtitle">
+      <div className="support-subtitle">
         Where Fitness Meets Social Connection!
       </div>
-      <div className="plan-support-email">hello@gym.birlaventures.com</div>
-      <div className="plan-support-links">
+      <div className="support-email">hello@gym.birlaventures.com</div>
+      <div className="support-links">
         <AnchorLink
           href="#Home"
           style={{ textDecoration: "none", color: "white" }}
@@ -42,8 +42,8 @@ const PlanSupport = () => {
           FAQ&apos;s
         </AnchorLink>
       </div>
-      <hr className="plan-support-hr" />
-      <div className="plan-support-copyright">
+      <hr className="support-hr" />
+      <div className="support-copyright">
         © 2024 GymFluencer. All rights reserved.
       </div>
       <a
@@ -51,7 +51,7 @@ const PlanSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="plan-support-linkedin">
+        <div className="support-linkedin">
           <FaLinkedin />
         </div>
       </a>
@@ -60,7 +60,7 @@ const PlanSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="plan-support-twitter">
+        <div className="support-twitter">
           <BsTwitterX />
         </div>
       </a>
@@ -69,7 +69,7 @@ const PlanSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="plan-support-instagram">
+        <div className="support-instagram">
           <RiInstagramFill />
         </div>
       </a>

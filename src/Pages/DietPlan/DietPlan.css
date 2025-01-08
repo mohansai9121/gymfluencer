@@ -97,3 +97,110 @@
   white-space: normal;
   word-wrap: break-word;
 }
+
+@media (max-width: 768px) {
+  .diet-plan-page {
+    width: 100vw;
+    height: 220vh;
+    position: relative;
+  }
+  .diet-plan-title {
+    position: absolute;
+    top: 10vh;
+    left: 35vw;
+    font-family: "protiqueBold";
+    font-size: 40px;
+    color: #ee3918;
+    font-weight: 600;
+  }
+  .diet-plan-subtitle {
+    position: absolute;
+    top: 20vh;
+    left: 20vw;
+    width: 50%;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    width: 60vw;
+    line-height: 1.05;
+    font-size: 18px;
+  }
+  .diet-plan-offer {
+    position: absolute;
+    top: 55vh;
+    left: 20vw;
+    font-family: "protiqueBold";
+    font-size: 40px;
+    color: #ee3918;
+  }
+  .diet-plan-offer-img1 {
+    position: absolute;
+    top: 65vh;
+    left: 2vw;
+  }
+  .diet-plan-offer-img {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 15px;
+  }
+  .diet-plan-offer-img2 {
+    position: absolute;
+    top: 65vh;
+    left: 36vw;
+  }
+  .diet-plan-offer-img3 {
+    position: absolute;
+    top: 65vh;
+    left: 70vw;
+  }
+  .diet-plan-offer-text1 {
+    position: absolute;
+    top: 86vh;
+    left: 3vw;
+    font-family: "Arial";
+    font-size: 16px;
+    width: 30vw;
+    line-height: 1.05;
+  }
+  .diet-plan-offer-text2 {
+    position: absolute;
+    top: 86vh;
+    left: 40vw;
+    font-family: "Arial";
+    font-size: 16px;
+    width: 30vw;
+    line-height: 1.05;
+  }
+  .diet-plan-offer-text3 {
+    position: absolute;
+    top: 86vh;
+    left: 73vw;
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 1.05;
+  }
+  .diet-plan-offer-why {
+    position: absolute;
+    top: 100vh;
+    left: 20vw;
+    font-family: "protiqueBold";
+    font-size: 40px;
+    color: #ee3918;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    width: 60vw;
+    line-height: 1.1;
+  }
+  .diet-plan-offer-why-ans {
+    position: absolute;
+    top: 115vh;
+    left: 15vw;
+    font-size: 16px;
+    width: 70vw;
+    line-height: 1.05;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+}

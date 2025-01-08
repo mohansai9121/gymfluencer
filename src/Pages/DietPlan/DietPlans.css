@@ -398,3 +398,402 @@
   word-wrap: break-word;
   width: 34vw;
 }
+
+
+@media (max-width:768px) {
+  .diet-plans-container {
+    position: absolute;
+    height: 510vh;
+    width: 100vw;
+    top: 140vh;
+    left: 0;
+  }
+  .diet-plans-bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 270vh;
+  }
+  .diet-plans-bgimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .diet-plans-bgimg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .diet-plans-img1 {
+    position: absolute;
+    top: 20vh;
+    left: 1vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img1-animate {
+    position: absolute;
+    top: 20vh;
+    left: 1vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollLeft 1s linear;
+  }
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .diet-plans-img1-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+    z-index: 1;
+  }
+  .diet-org-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .diet-plans-img1-description {
+    position: absolute;
+    top: 43vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img2 {
+    position: absolute;
+    top: 2vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img2-animate {
+    position: absolute;
+    top: 2vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollRight 1s linear;
+  }
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .diet-plans-img2-text {
+    position: absolute;
+    top: 35vh;
+    left: 0vw;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img2-description {
+    position: absolute;
+    top: 43vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img3 {
+    position: absolute;
+    top: 75vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img3-animate {
+    position: absolute;
+    top: 75vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollLeft 1s linear;
+  }
+  .diet-plans-img3-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img3-description {
+    position: absolute;
+    top: 45vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img4 {
+    position: absolute;
+    top: 55vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img4-animate {
+    position: absolute;
+    top: 55vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollRight 1s linear;
+  }
+  .diet-plans-img4-text {
+    position: absolute;
+    top: 35vh;
+    left: 0vw;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img4-description {
+    position: absolute;
+    top: 45vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img5 {
+    position: absolute;
+    top: 130vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img5-animate {
+    position: absolute;
+    top: 130vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollLeft 1s linear;
+  }
+  .diet-plans-img5-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img5-description {
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img6 {
+    position: absolute;
+    top: 108vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img6-animate {
+    position: absolute;
+    top: 108vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollRight 1s linear;
+  }
+  .diet-plans-img6-text {
+    position: absolute;
+    top: 35vh;
+    left: 0vw;
+    color: #ee3918;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img6-description {
+    position: absolute;
+    top: 42vh;
+    left: 0vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img7 {
+    position: absolute;
+    top: 180vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img7-animate {
+    position: absolute;
+    top: 180vh;
+    left: 2vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollLeft 1s linear;
+  }
+  .diet-plans-img7-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img7-description {
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img8 {
+    position: absolute;
+    top: 160vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img8-animate {
+    position: absolute;
+    top: 160vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollRight 1s linear;
+  }
+  .diet-plans-img8-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img8-description {
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+  .diet-plans-img9 {
+    position: absolute;
+    top: 210vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+  }
+  .diet-plans-img9-animate {
+    position: absolute;
+    top: 210vh;
+    left: 52vw;
+    width: 46vw;
+    height: 35vh;
+    animation: scrollRight 1s linear;
+  }
+  .diet-plans-img9-text {
+    position: absolute;
+    top: 35vh;
+    left: 2vw;
+    color: #ee3918;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 46vw;
+  }
+  .diet-plans-img9-description {
+    position: absolute;
+    top: 40vh;
+    left: 2vw;
+    color: white;
+    font-size: 14px;
+    white-space: normal;
+    line-height: 1;
+    word-wrap: break-word;
+    width: 42vw;
+  }
+}
