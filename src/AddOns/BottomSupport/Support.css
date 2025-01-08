@@ -97,3 +97,110 @@
   cursor: pointer;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .support-page {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    top: 210vh;
+  }
+  .support-title {
+    position: absolute;
+    top: 20vh;
+    left: 32vw;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .support-logo {
+    width: 4vw;
+    height: 6vh;
+    border-radius: 20px;
+  }
+  .support-subtitle {
+    position: absolute;
+    top: 32vh;
+    left: 34vw;
+    font-size: 18px;
+    font-weight: 400;
+    width: 40vw;
+    line-height: 1.1;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  .support-email {
+    position: absolute;
+    top: 44vh;
+    left: 22vw;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px;
+    border: 0.05vh solid gray;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+  }
+  .support-links {
+    position: absolute;
+    top: 52vh;
+    left: 8vw;
+    display: flex;
+    gap: 6vw;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .support-hr {
+    position: absolute;
+    top: 56vh;
+    left: 3vw;
+    width: 92vw;
+    height: 0.005vh;
+    background-color: gray;
+  }
+  .support-copyright {
+    position: absolute;
+    top: 58vh;
+    left: 3vw;
+    width: 28vw;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  .support-linkedin {
+    position: absolute;
+    top: 58vh;
+    font-size: 18px;
+    padding: 5px;
+    left: 64vw;
+    border: 0.001vh solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .support-twitter {
+    position: absolute;
+    top: 58vh;
+    left: 74vw;
+    font-size: 18px;
+    padding: 5px;
+    border: 0.001vh solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .support-instagram {
+    position: absolute;
+    top: 58vh;
+    left: 84vw;
+    font-size: 18px;
+    padding: 5px;
+    border: 0.001vh solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+}

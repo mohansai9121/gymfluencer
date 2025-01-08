@@ -148,7 +148,7 @@
 @media (max-width: 768px) {
   .contact-page {
     position: absolute;
-    top: 990vh;
+    top: 1000vh;
     width: 100vw;
     height: 180vh;
   }
@@ -157,7 +157,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 115vh;
+    height: 135vh;
   }
   .faq-background-img {
     width: 100%;
@@ -201,7 +201,7 @@
   }
   .contact-title {
     position: absolute;
-    top: 130vh;
+    top: 140vh;
     left: 30vw;
     font-size: 24px;
     font-weight: 600;
@@ -213,9 +213,9 @@
   }
   .contact-subtitle {
     position: absolute;
-    top: 140vh;
+    top: 145vh;
     left: 25vw;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     width: 50vw;
     line-height: 1.2;

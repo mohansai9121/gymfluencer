@@ -4,15 +4,16 @@
   position: absolute;
   top: 100vh;
 }
-.workoutplans-select-title {
+.workoutplans1-select-title {
   position: absolute;
   top: 20vh;
   left: 28%;
   font-family: "protiqueBold";
   font-size: 60px;
+  line-height: 1;
   color: #ee3918;
 }
-.workoutplans-select-subtitle {
+.workoutplans1-select-subtitle {
   position: absolute;
   top: 30vh;
   left: 28%;
@@ -25,7 +26,7 @@
   text-align: center;
   line-height: 1.2;
 }
-.workout-beginner-card {
+.workouts-beginner-card {
   position: absolute;
   top: 50vh;
   left: 3vw;
@@ -41,14 +42,15 @@
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
 }
-.workout-beginner-title {
+.workouts-beginner-title {
   position: absolute;
   top: 75vh;
   left: 5vw;
+  color: #ee3918;
   font-family: "protiqueBold";
   font-size: 30px;
 }
-.workout-beginner-subtitle {
+.workouts-beginner-subtitle {
   position: absolute;
   top: 80vh;
   left: -1.5vw;
@@ -61,21 +63,22 @@
   text-align: center;
   line-height: 1;
 }
-.workout-intermediate-card {
+.workouts-intermediate-card {
   position: absolute;
   top: 65vh;
   left: 27vw;
   width: 20vw;
   height: 70vh;
 }
-.workout-intermediate-title {
+.workouts-intermediate-title {
   position: absolute;
   top: 75vh;
+  color: #ee3918;
   left: 4vw;
   font-family: "protiqueBold";
   font-size: 30px;
 }
-.workout-intermediate-subtitle {
+.workouts-intermediate-subtitle {
   position: absolute;
   top: 80vh;
   left: -1.5vw;
@@ -88,14 +91,14 @@
   text-align: center;
   line-height: 1;
 }
-.workout-advanced-card {
+.workouts-advanced-card {
   position: absolute;
   top: 50vh;
   left: 50vw;
   width: 20vw;
   height: 70vh;
 }
-.workout-advanced-title {
+.workouts-advanced-title {
   position: absolute;
   top: 75vh;
   left: 4vw;
@@ -103,7 +106,7 @@
   font-size: 30px;
   color: #ee3918;
 }
-.workout-advanced-subtitle {
+.workouts-advanced-subtitle {
   position: absolute;
   top: 80vh;
   color: white;
@@ -116,14 +119,14 @@
   text-align: center;
   line-height: 1;
 }
-.workout-personalized-card {
+.workouts-personalized-card {
   position: absolute;
   top: 65vh;
   left: 74vw;
   width: 20vw;
   height: 70vh;
 }
-.workout-personalized-title {
+.workouts-personalized-title {
   position: absolute;
   top: 75vh;
   left: 4vw;
@@ -131,7 +134,7 @@
   font-size: 30px;
   color: #ee3918;
 }
-.workout-personalized-subtitle {
+.workouts-personalized-subtitle {
   position: absolute;
   top: 80vh;
   left: -1.5vw;
@@ -143,4 +146,203 @@
   word-wrap: break-word;
   text-align: center;
   line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .select-workouts-page {
+    width: 100vw;
+    height: 160vh;
+    position: absolute;
+    top: 80vh;
+  }
+  .workoutplans1-select-title {
+    position: absolute;
+    top: 16vh;
+    left: 15vw;
+    font-family: "protiqueBold";
+    font-size: 30px;
+    color: #ee3918;
+    width: 70vw;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.05;
+  }
+  .workoutplans1-select-subtitle {
+    position: absolute;
+    top: 26vh;
+    left: 15vw;
+    font-family: "Arial";
+    font-size: 18px;
+    width: 70vw;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .workouts-beginner-card {
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+    width: 46vw;
+    height: 60vh;
+  }
+  .workouts-beginner-card::after{
+    content: "";
+    position: absolute;
+    bottom: 21vh;
+    left: 0;
+    height: 20vh;
+    width: 46vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+  .org-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .org-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .workouts-beginner-title {
+    position: absolute;
+    top: 36vh;
+    color: #ee3918;
+    left: 12vw;
+    z-index: 1;
+    font-family: "protiqueBold";
+    font-size: 22px;
+  }
+  .workouts-beginner-subtitle {
+    position: absolute;
+    top: 38vh;
+    left: 4vw;
+    font-family: "Arial";
+    font-size: 14px;
+    width: 32vw;
+    color: white;
+    z-index: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1;
+  }
+  .workouts-intermediate-card {
+    position: absolute;
+    top: 52vh;
+    left: 52vw;
+    width: 46vw;
+    height: 60vh;
+  }
+  .workouts-intermediate-card::after{
+    content: "";
+    position: absolute;
+    bottom: 21vh;
+    left: 0;
+    height: 20vh;
+    width: 46vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+  .workouts-intermediate-title {
+    position: absolute;
+    top: 36vh;
+    left: 8vw;
+    color: #ee3918;
+    z-index: 1;
+    font-family: "protiqueBold";
+    font-size: 22px;
+  }
+  .workouts-intermediate-subtitle {
+    position: absolute;
+    top: 38vh;
+    left: 6vw;
+    font-family: "Arial";
+    font-size: 14px;
+    color: white;
+    width: 32vw;
+    z-index: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1;
+  }
+  .workouts-advanced-card {
+    position: absolute;
+    top: 90vh;
+    left: 2vw;
+    width: 46vw;
+    height: 60vh;
+  }
+  .workouts-advanced-card::after{
+    content: "";
+    position: absolute;
+    bottom: 21vh;
+    left: 0;
+    height: 20vh;
+    width: 46vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+  .workouts-advanced-title {
+    position: absolute;
+    top: 36vh;
+    left: 12vw;
+    font-family: "protiqueBold";
+    font-size: 22px;
+    z-index: 1;
+    color: #ee3918;
+  }
+  .workouts-advanced-subtitle {
+    position: absolute;
+    top: 38vh;
+    color: white;
+    left: 6vw;
+    font-family: "Arial";
+    font-size: 14px;
+    width: 32vw;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    z-index: 1;
+    line-height: 1;
+  }
+  .workouts-personalized-card {
+    position: absolute;
+    top: 100vh;
+    left: 52vw;
+    width: 46vw;
+    height: 60vh;
+  }
+  .workouts-personalized-card::after{
+    content: "";
+    position: absolute;
+    bottom: 21vh;
+    left: 0;
+    height: 20vh;
+    width: 46vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  }
+  .workouts-personalized-title {
+    position: absolute;
+    top: 36vh;
+    left: 12vw;
+    font-family: "protiqueBold";
+    font-size: 22px;
+    z-index: 1;
+    color: #ee3918;
+  }
+  .workouts-personalized-subtitle {
+    position: absolute;
+    top: 38vh;
+    left: 8vw;
+    color: white;
+    font-family: "Arial";
+    font-size: 14px;
+    width: 32vw;
+    z-index: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1;
+  }
 }

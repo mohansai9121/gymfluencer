@@ -242,7 +242,7 @@
 @media (max-width: 768px) {
   .benefits-page {
     position: absolute;
-    top: 310vh;
+    top: 320vh;
     width: 100vw;
     height: 650vh;
   }

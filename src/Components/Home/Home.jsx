@@ -56,6 +56,7 @@ const Home = () => {
           href="#Services"
           onMouseEnter={() => setIsOptions(true)}
           onMouseLeave={() => setIsOptions(false)}
+          onClick={()=>{setIsOptions(true)}}
         >
           Our Services
           <FaAngleDown />

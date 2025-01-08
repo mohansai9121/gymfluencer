@@ -74,3 +74,96 @@
   font-family: "protiqueBold";
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .workoutplans-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .workoutplans-title {
+    position: absolute;
+    top: 18vh;
+    left: 20%;
+    font-family: "protiqueBold";
+    font-size: 35px;
+    line-height: 1.05;
+    color: #ee3918;
+    font-weight: 600;
+  }
+  .workoutplans-subtitle {
+    position: absolute;
+    top: 30vh;
+    left: 25%;
+    font-family: "Arial";
+    width: 50%;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    width: 60vw;
+    line-height: 1;
+    font-size: 18px;
+  }
+  .workoutplans-offer {
+    position: absolute;
+    top: 48vh;
+    left: 30vw;
+    font-family: "protiqueBold";
+    line-height: 1.05;
+    font-size: 35px;
+    color: #ee3918;
+  }
+  .workoutplans-offer-img1 {
+    position: absolute;
+    top: 60vh;
+    left: 4vw;
+  }
+  .workoutplans-offer-img {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 15px;
+  }
+  .workoutplans-offer-img2 {
+    position: absolute;
+    top: 60vh;
+    left: 38vw;
+  }
+  .workoutplans-offer-img3 {
+    position: absolute;
+    top: 60vh;
+    left: 71vw;
+  }
+  .workoutplans-offer-text1 {
+    position: absolute;
+    top: 82vh;
+    left: 6vw;
+    font-family: "Arial";
+    width: 30vw;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1;
+    font-size: 16px;
+  }
+  .workoutplans-offer-text2 {
+    position: absolute;
+    top: 82vh;
+    left: 40vw;
+    font-family: "Arial";
+    font-size: 18px;
+    white-space: normal;
+    width: 30vw;
+    word-wrap: break-word;
+    line-height: 1;
+  }
+  .workoutplans-offer-text3 {
+    position: absolute;
+    top: 82vh;
+    left: 73vw;
+    width: 30vw;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1;
+    font-family: "Arial";
+    font-size: 18px;
+  }
+}
