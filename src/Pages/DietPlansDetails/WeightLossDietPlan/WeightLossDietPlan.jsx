@@ -36,11 +36,7 @@ const WeightLossDietPlan = () => {
       <div className="navbar">
         <div style={{ display: "flex" }}>
           <img src={logo} alt="GymFluencer Logo" className="logo" />
-          <span
-            style={{ fontSize: "18px", textAlign: "center", marginTop: "12px" }}
-          >
-            GymFluencer
-          </span>
+          <span className="navbar-logo-name">GymFluencer</span>
         </div>
         <AnchorLink className="navlink" href="#Home">
           <Link to="/" className="navlink">
@@ -104,7 +100,7 @@ const WeightLossDietPlan = () => {
           </Link>
         </AnchorLink>
       </div>
-      <div className="weight-loss-diet-plan-title">Weight-Loss Diet Plans</div>
+      <div className="weight-loss-diet-plan-title">Weight-Loss Diet Plan</div>
       <div className="weight-loss-diet-plan-subtitle">
         A diet plan is a structured approach to nutrition designed to help you
         achieve specific fitness goals, whether it&apos;s weight loss, muscle
