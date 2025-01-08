@@ -323,3 +323,332 @@
 .intermediate-workouts-plan-day4-img3 {
   overflow: hidden;
 }
+
+
+@media (max-width:768px) {
+  .intermediate-workouts-page {
+    width: 100vw;
+    height: 300vh;
+    position: relative;
+  }
+  .intermediate-workouts-title {
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    color: #ee3918;
+    font-family: "protiqueBold";
+    font-size: 30px;
+  }
+  .intermediate-workouts-subtitle {
+    position: absolute;
+    top: 30vh;
+    left: 18vw;
+    font-size: 16px;
+    width: 64vw;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1.05;
+  }
+  .intermediate-workouts-plan-container {
+    position: absolute;
+    top: 55vh;
+    left: 0vw;
+    width: 100vw;
+    height: 400vh;
+  }
+  .intermediate-workouts-plan-bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 400vh;
+  }
+  .intermediate-workouts-plan-bgimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .intermediate-workouts-plan-bgimg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .intermediate-workouts-plan-box {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    width: 90vw;
+    height: 300vh;
+  }
+  .intermediate-workouts-plan-goal {
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    font-size: 26px;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-goal-subtitle {
+    position: absolute;
+    top: 7vh;
+    left: 2vw;
+    font-size: 16px;
+    line-height: 1.05;
+  }
+  .intermediate-workouts-plan-schedule {
+    position: absolute;
+    top: 15vh;
+    left: 2vw;
+    font-size: 26px;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-schedule-subtitle {
+    position: absolute;
+    top: 19vh;
+    left: 2vw;
+    font-size: 16px;
+    line-height: 1.05;
+  }
+  .intermediate-workouts-plan-routine {
+    position: absolute;
+    top: 28vh;
+    left: 2vw;
+    font-size: 26px;
+    color: white;
+  }
+  .intermediate-workouts-plan-day1 {
+    position: absolute;
+    top: 34vh;
+    left: 2vw;
+    font-size: 22px;
+    line-height: 1.05;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-day1-img1 {
+    position: absolute;
+    top: 42vh;
+    left: 2vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day1-img2 {
+    position: absolute;
+    top: 42vh;
+    left: 31vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day1-img3 {
+    position: absolute;
+    top: 42vh;
+    left: 60vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-img-title {
+    position: absolute;
+    top: 92%;
+    left: 1vw;
+    color: #ee3918;
+    width: 200%;
+    font-size: 24px;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .intermediate-workouts-plan-day1-matter-container {
+    position: absolute;
+    top: 75vh;
+    left: 2vw;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    line-height: 1.05;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .intermediate-workouts-plan-day2 {
+    position: absolute;
+    top: 120vh;
+    left: 2vw;
+    font-size: 22px;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-day2-img1 {
+    position: absolute;
+    top: 128vh;
+    left: 2vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day2-img2 {
+    position: absolute;
+    top: 128vh;
+    left: 31vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day2-img3 {
+    position: absolute;
+    top: 128vh;
+    left: 60vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day2-matter-container {
+    position: absolute;
+    top: 165vh;
+    left: 2vw;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    line-height: 1.05;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .intermediate-workouts-plan-day3 {
+    position: absolute;
+    top: 210vh;
+    left: 2vw;
+    font-size: 22px;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-day3-img1 {
+    position: absolute;
+    top: 218vh;
+    left: 2vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day3-img2 {
+    position: absolute;
+    top: 218vh;
+    left: 31vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day3-img3 {
+    position: absolute;
+    top: 218vh;
+    left: 60vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day3-matter-container {
+    position: absolute;
+    top: 250vh;
+    left: 2vw;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    line-height: 1.05;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .intermediate-workouts-plan-day4 {
+    position: absolute;
+    top: 295vh;
+    left: 2vw;
+    font-size: 22px;
+    color: #ee3918;
+  }
+  .intermediate-workouts-plan-day4-img1 {
+    position: absolute;
+    top: 303vh;
+    left: 2vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day4-img2 {
+    position: absolute;
+    top: 303vh;
+    left: 31vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day4-img3 {
+    position: absolute;
+    top: 303vh;
+    left: 60vw;
+    width: 27vw;
+    height: 30vh;
+    background-color: green;
+  }
+  .intermediate-workouts-plan-day4-matter-container {
+    position: absolute;
+    top: 340vh;
+    left: 2vw;
+    width: 80vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    line-height: 1.05;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .intermediate-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .intermediate-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  .intermediate-workouts-plan-day1-img1::after,
+  .intermediate-workouts-plan-day1-img2::after,
+  .intermediate-workouts-plan-day1-img3::after,
+  .intermediate-workouts-plan-day2-img1::after,
+  .intermediate-workouts-plan-day2-img2::after,
+  .intermediate-workouts-plan-day2-img3::after,
+  .intermediate-workouts-plan-day3-img1::after,
+  .intermediate-workouts-plan-day3-img2::after,
+  .intermediate-workouts-plan-day3-img3::after,
+  .intermediate-workouts-plan-day4-img1::after,
+  .intermediate-workouts-plan-day4-img2::after,
+  .intermediate-workouts-plan-day4-img3::after {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+  .intermediate-workouts-plan-day1-img1,
+  .intermediate-workouts-plan-day1-img2,
+  .intermediate-workouts-plan-day1-img3,
+  .intermediate-workouts-plan-day2-img1,
+  .intermediate-workouts-plan-day2-img2,
+  .intermediate-workouts-plan-day2-img3,
+  .intermediate-workouts-plan-day3-img1,
+  .intermediate-workouts-plan-day3-img2,
+  .intermediate-workouts-plan-day3-img3,
+  .intermediate-workouts-plan-day4-img1,
+  .intermediate-workouts-plan-day4-img2,
+  .intermediate-workouts-plan-day4-img3 {
+    overflow: hidden;
+  }
+}

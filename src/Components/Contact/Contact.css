@@ -204,7 +204,7 @@
     top: 140vh;
     left: 30vw;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .contact-logo {
     width: 6vw;
@@ -215,7 +215,7 @@
     position: absolute;
     top: 145vh;
     left: 25vw;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     width: 50vw;
     line-height: 1.2;
@@ -227,9 +227,9 @@
     position: absolute;
     top: 155vh;
     left: 20vw;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    padding: 20px;
+    padding: 10px;
     border: 0.05vh solid gray;
     border-radius: 10px;
     background-color: gray;

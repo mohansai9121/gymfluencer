@@ -10,6 +10,15 @@
   top: 25vh;
   left: 0;
 }
+.personalized-workout-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .personalized-workout-bgimg {
   position: absolute;
   top: 0;
@@ -22,19 +31,11 @@
   width: 100%;
   object-fit: cover;
 }
-.personalized-workout-bgimg::after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
 .personalized-workout-form-container {
   height: 340vh;
   width: 80vw;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 20vh;
   left: 10vw;
@@ -47,6 +48,7 @@
   position: absolute;
   top: 10vh;
   left: 10vw;
+  z-index: 1;
 }
 .personalized-workout-form-container-head1 {
   font-size: 30px;
@@ -56,6 +58,7 @@
   position: absolute;
   top: 35vh;
   left: 2vw;
+  z-index: 1;
 }
 .head1-subhead1 {
   font-size: 28px;
@@ -66,6 +69,7 @@
   top: 7vh;
   width: 30vw;
   left: 2.2vw;
+  z-index: 1;
 }
 .head1-subhead2 {
   font-size: 28px;
@@ -76,6 +80,7 @@
   top: 40vh;
   width: 30vw;
   left: 2.2vw;
+  z-index: 1;
 }
 .left-checkboxes1 {
   position: absolute;
@@ -89,6 +94,7 @@
   font-size: 22px;
   width: 20vw;
   justify-content: center;
+  z-index: 1;
 }
 .right-checkboxes1 {
   position: absolute;
@@ -102,6 +108,7 @@
   font-size: 22px;
   width: 20vw;
   justify-content: center;
+  z-index: 1;
 }
 .left-checkboxes2 {
   position: absolute;
@@ -114,6 +121,7 @@
   color: white;
   font-size: 22px;
   width: 20vw;
+  z-index: 1;
   justify-content: center;
 }
 .right-checkboxes2 {
@@ -128,6 +136,7 @@
   font-size: 22px;
   width: 20vw;
   justify-content: center;
+  z-index: 1;
 }
 .check-style-box {
   width: 24px;
@@ -142,6 +151,7 @@
   position: absolute;
   top: 105vh;
   left: 2vw;
+  z-index: 1;
 }
 .head2-title {
   font-size: 28px;
@@ -151,18 +161,21 @@
   position: absolute;
   top: 7vh;
   width: 30vw;
+  z-index: 1;
   left: 2.7vw;
 }
 .head2-dropdown {
   position: absolute;
   top: 15vh;
   left: 7vh;
+  z-index: 1;
 }
 .dropdown-options {
   height: 10vh;
   width: 70vw;
   border: 1px solid #ee3918;
   font-size: 24px;
+  z-index: 1;
 }
 .personalized-workout-form-container-head3 {
   font-size: 30px;
@@ -172,6 +185,7 @@
   position: absolute;
   top: 160vh;
   left: 2vw;
+  z-index: 1;
 }
 .head3-part1 {
   display: flex;
@@ -182,6 +196,7 @@
   color: white;
   font-size: 22px;
   font-weight: 500;
+  z-index: 1;
 }
 .head3-part1-p {
   display: flex;
@@ -191,30 +206,35 @@
   justify-content: start;
   gap: 2vh;
   width: 35vw;
+  z-index: 1;
 }
 .age-input {
   width: 30vw;
   height: 5vh;
   font-size: 20px;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .height-input {
   width: 30vw;
   height: 5vh;
   font-size: 20px;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .weight-input {
   width: 30vw;
   height: 5vh;
   font-size: 20px;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .gender-selection {
   width: 30vw;
   height: 5vh;
   font-size: 20px;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .head3-part2 {
   display: flex;
@@ -228,16 +248,19 @@
   top: 35vh;
   left: 2vw;
   width: 2vw;
+  z-index: 1;
 }
 .injuries-input {
   width: 67vw;
   height: 10vh;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .condition-input {
   width: 67vw;
   height: 10vh;
   border: 1px solid #ee3918;
+  z-index: 1;
 }
 .personalized-workout-form-container-head4 {
   font-size: 30px;
@@ -246,6 +269,7 @@
   color: #ee3918;
   position: absolute;
   top: 240vh;
+  z-index: 1;
   left: 2vw;
 }
 .left-checkboxes4 {
@@ -260,6 +284,7 @@
   justify-content: start;
   color: white;
   font-size: 22px;
+  z-index: 1;
   gap: 4vh;
 }
 .right-checkboxes4 {
@@ -274,6 +299,7 @@
   justify-content: start;
   color: white;
   font-size: 22px;
+  z-index: 1;
   gap: 4vh;
 }
 .personalized-workout-form-container-head5 {
@@ -284,6 +310,7 @@
   position: absolute;
   top: 280vh;
   left: 2vw;
+  z-index: 1;
 }
 .left-checkboxes5 {
   display: flex;
@@ -298,6 +325,7 @@
   justify-content: start;
   color: white;
   font-size: 22px;
+  z-index: 1;
 }
 .right-checkboxes5 {
   display: flex;
@@ -312,6 +340,7 @@
   justify-content: start;
   color: white;
   font-size: 22px;
+  z-index: 1;
 }
 .submit-button button {
   position: absolute;
@@ -324,4 +353,341 @@
   text-align: center;
   color: white;
   background-color: #ee3918;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .personalized-workout-page {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+  .personalized-workout-container {
+    height: 250vh;
+    width: 100vw;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+  }
+  .personalized-workout-bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .personalized-workout-bgimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .personalized-workout-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .personalized-workout-form-container {
+    height: 235vh;
+    width: 94vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+  }
+  .personalized-workout-form-container-heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    line-height: 1.05;
+    top: 7vh;
+    left: 5vw;
+  }
+  .personalized-workout-form-container-head1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    top: 20vh;
+    left: 2vw;
+  }
+  .head1-subhead1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+    color: #ee3918;
+    position: absolute;
+    top: 5vh;
+    width: 60vw;
+    left: 4vw;
+  }
+  .head1-subhead2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+    color: #ee3918;
+    position: absolute;
+    top: 26vh;
+    width: 60vw;
+    left: 4vw;
+  }
+  .left-checkboxes1 {
+    position: absolute;
+    top: 8vh;
+    left: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vh;
+    color: white;
+    font-size: 14px;
+    width: 40vw;
+    justify-content: center;
+  }
+  .right-checkboxes1 {
+    position: absolute;
+    top: 8vh;
+    left: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vh;
+    color: white;
+    font-size: 14px;
+    width: 40vw;
+    justify-content: center;
+  }
+  .left-checkboxes2 {
+    position: absolute;
+    top: 30vh;
+    left: 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vh;
+    color: white;
+    font-size: 14px;
+    width: 40vw;
+    justify-content: center;
+  }
+  .right-checkboxes2 {
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 3vh;
+    color: white;
+    font-size: 14px;
+    width: 40vw;
+    justify-content: center;
+  }
+  .check-style-box {
+    width: 14px;
+    height: 14px;
+    accent-color: red;
+  }
+  .personalized-workout-form-container-head2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    top: 65vh;
+    left: 2vw;
+  }
+  .head2-title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: start;
+    color: #ee3918;
+    position: absolute;
+    top: 5vh;
+    width: 60vw;
+    left: 4vw;
+  }
+  .head2-dropdown {
+    position: absolute;
+    top: 10vh;
+    left: 7vw;
+  }
+  .dropdown-options {
+    height: 3vh;
+    width: 80vw;
+    border: 1px solid #ee3918;
+    font-size: 14px;
+  }
+  .personalized-workout-form-container-head3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    line-height: 1.05;
+    top: 90vh;
+    left: 2vw;
+  }
+  .head3-part1 {
+    display: flex;
+    gap: 2vw;
+    position: absolute;
+    top: 10vh;
+    left: 4vw;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .head3-part1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    line-height: 1.05;
+    justify-content: start;
+    gap: 1vh;
+    width: 35vw;
+  }
+  .age-input {
+    width: 30vw;
+    height: 2vh;
+    font-size: 20px;
+    border: 1px solid #ee3918;
+  }
+  .height-input {
+    width: 30vw;
+    height: 2vh;
+    font-size: 20px;
+    border: 1px solid #ee3918;
+  }
+  .weight-input {
+    width: 30vw;
+    height: 2vh;
+    font-size: 20px;
+    border: 1px solid #ee3918;
+  }
+  .gender-selection {
+    width: 30vw;
+    height: 2vh;
+    font-size: 14px;
+    border: 1px solid #ee3918;
+  }
+  .head3-part2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vh;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    width: 60vw;
+    line-height: 0.3;
+    top: 28vh;
+    left: 2vw;
+    width: 2vw;
+  }
+  .injuries-input {
+    width: 75vw;
+    height: 7vh;
+    border: 1px solid #ee3918;
+  }
+  .condition-input {
+    width: 75vw;
+    height: 7vh;
+    border: 1px solid #ee3918;
+  }
+  .personalized-workout-form-container-head4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    line-height: 1.05;
+    top: 155vh;
+    left: 2vw;
+  }
+  .left-checkboxes4 {
+    position: absolute;
+    top: 6vh;
+    left: 2vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    font-size: 14px;
+    gap: 2vh;
+  }
+  .right-checkboxes4 {
+    position: absolute;
+    top: 6vh;
+    left: 40vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    font-size: 14px;
+    gap: 2vh;
+  }
+  .personalized-workout-form-container-head5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.05;
+    text-align: center;
+    color: #ee3918;
+    position: absolute;
+    top: 185vh;
+    left: 2vw;
+  }
+  .left-checkboxes5 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    position: absolute;
+    top: 8vh;
+    gap: 2vh;
+    left: 2vw;
+    width: 40vw;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    font-size: 14px;
+  }
+  .right-checkboxes5 {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    position: absolute;
+    top: 8vh;
+    gap: 2vh;
+    left: 40vw;
+    width: 40vw;
+    align-items: start;
+    justify-content: start;
+    color: white;
+    font-size: 14px;
+  }
+  .submit-button button {
+    position: absolute;
+    top: 220vh;
+    left: 6vw;
+    width: 80vw;
+    border: none;
+    height: 4vh;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color: #ee3918;
+  }
 }

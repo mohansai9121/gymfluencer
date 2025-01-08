@@ -4,96 +4,12 @@
   position: absolute;
   top: 930vh;
 }
-.support3-title {
-  position: absolute;
-  top: 20vh;
-  left: 42%;
-  font-size: 24px;
-  font-weight: 600;
-}
-.support3-logo {
-  width: 4vw;
-  height: 6vh;
-  border-radius: 20px;
-}
-.support3-subtitle {
-  position: absolute;
-  top: 40vh;
-  left: 38%;
-  font-size: 22px;
-  font-weight: 400;
-  width: 24vw;
-  line-height: 1.2;
-  white-space: normal;
-  word-wrap: break-word;
-  text-align: center;
-}
-.support3-email {
-  position: absolute;
-  top: 60vh;
-  left: 38%;
-  font-size: 22px;
-  font-weight: 400;
-  padding: 20px;
-  border: 0.05vh solid gray;
-  border-radius: 10px;
-  background-color: gray;
-  color: white;
-}
-.support3-links {
-  position: absolute;
-  top: 78vh;
-  left: 30%;
-  display: flex;
-  gap: 6vw;
-  font-size: 20px;
-  font-weight: 400;
-}
-.support3-hr {
-  position: absolute;
-  top: 83vh;
-  left: 3vw;
-  width: 92vw;
-  height: 0.005vh;
-  background-color: gray;
-}
-.support3-copyright {
-  position: absolute;
-  top: 92vh;
-  left: 3vw;
-  font-size: 16px;
-  font-weight: 400;
-}
-.support3-linkedin {
-  position: absolute;
-  top: 90vh;
-  font-size: 20px;
-  padding: 10px;
-  left: 82vw;
-  border: 0.001vh solid gray;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
-}
-.support3-twitter {
-  position: absolute;
-  top: 90vh;
-  left: 88vw;
-  font-size: 20px;
-  padding: 10px;
-  border: 0.001vh solid gray;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
-}
-.support3-instagram {
-  position: absolute;
-  top: 90vh;
-  left: 94vw;
-  font-size: 20px;
-  padding: 10px;
-  border: 0.001vh solid gray;
-  border-radius: 10px;
-  cursor: pointer;
-  color: white;
+
+@media (max-width: 768px) {
+  .support3-page {
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    top: 490vh;
+  }
 }

@@ -132,8 +132,8 @@
   .support-email {
     position: absolute;
     top: 44vh;
-    left: 22vw;
-    font-size: 18px;
+    left: 20vw;
+    font-size: 16px;
     font-weight: 400;
     padding: 15px;
     border: 0.05vh solid gray;
@@ -144,16 +144,16 @@
   .support-links {
     position: absolute;
     top: 52vh;
-    left: 8vw;
+    left: 6vw;
     display: flex;
     gap: 6vw;
     line-height: 1;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
   }
   .support-hr {
     position: absolute;
-    top: 56vh;
+    top: 56.5vh;
     left: 3vw;
     width: 92vw;
     height: 0.005vh;
@@ -161,7 +161,7 @@
   }
   .support-copyright {
     position: absolute;
-    top: 58vh;
+    top: 58.5vh;
     left: 3vw;
     width: 28vw;
     white-space: normal;
@@ -172,7 +172,7 @@
   }
   .support-linkedin {
     position: absolute;
-    top: 58vh;
+    top: 58.5vh;
     font-size: 18px;
     padding: 5px;
     left: 64vw;
@@ -183,7 +183,7 @@
   }
   .support-twitter {
     position: absolute;
-    top: 58vh;
+    top: 58.5vh;
     left: 74vw;
     font-size: 18px;
     padding: 5px;
@@ -194,7 +194,7 @@
   }
   .support-instagram {
     position: absolute;
-    top: 58vh;
+    top: 58.5vh;
     left: 84vw;
     font-size: 18px;
     padding: 5px;

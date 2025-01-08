@@ -14,11 +14,7 @@ const PersonalizedWorkout = () => {
       <div className="navbar">
         <div style={{ display: "flex" }}>
           <img src={logo} alt="GymFluencer Logo" className="logo" />
-          <span
-            style={{ fontSize: "18px", textAlign: "center", marginTop: "12px" }}
-          >
-            GymFluencer
-          </span>
+          <span className="navbar-logo-name">GymFluencer</span>
         </div>
         <AnchorLink className="navlink" href="#Home">
           <Link to="/" className="navlink">

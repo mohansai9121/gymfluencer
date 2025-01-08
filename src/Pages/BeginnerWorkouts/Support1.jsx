@@ -8,15 +8,15 @@ import { RiInstagramFill } from "react-icons/ri";
 const Support1 = () => {
   return (
     <div className="support1-page">
-      <div className="support1-title">
+      <div className="support-title">
         <img src={logo} alt="Logo" className="contact-logo" />
         GymFluencer
       </div>
-      <div className="support1-subtitle">
+      <div className="support-subtitle">
         Where Fitness Meets Social Connection!
       </div>
-      <div className="support1-email">hello@gym.birlaventures.com</div>
-      <div className="support1-links">
+      <div className="support-email">hello@gym.birlaventures.com</div>
+      <div className="support-links">
         <AnchorLink
           href="#Home"
           style={{ textDecoration: "none", color: "white" }}
@@ -42,8 +42,8 @@ const Support1 = () => {
           FAQ&apos;s
         </AnchorLink>
       </div>
-      <hr className="support1-hr" />
-      <div className="support1-copyright">
+      <hr className="support-hr" />
+      <div className="support-copyright">
         © 2024 GymFluencer. All rights reserved.
       </div>
       <a
@@ -51,7 +51,7 @@ const Support1 = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="support1-linkedin">
+        <div className="support-linkedin">
           <FaLinkedin />
         </div>
       </a>
@@ -60,7 +60,7 @@ const Support1 = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="support1-twitter">
+        <div className="support-twitter">
           <BsTwitterX />
         </div>
       </a>
@@ -69,7 +69,7 @@ const Support1 = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="support1-instagram">
+        <div className="support-instagram">
           <RiInstagramFill />
         </div>
       </a>

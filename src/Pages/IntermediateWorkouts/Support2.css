@@ -97,3 +97,13 @@
   cursor: pointer;
   color: white;
 }
+
+
+@media (max-width:768px) {
+  .support2-page {
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    top: 450vh;
+  }
+}
