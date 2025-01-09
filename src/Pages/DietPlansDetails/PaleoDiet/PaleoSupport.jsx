@@ -8,17 +8,17 @@ import { RiInstagramFill } from "react-icons/ri";
 const PaleoSupport = () => {
   return (
     <div className="paleo-support-page">
-      <div className="weight-loss-support-title">
+      <div className="support-title">
         <img src={logo} alt="Logo" className="contact-logo" />
         GymFluencer
       </div>
-      <div className="weight-loss-support-subtitle">
+      <div className="support-subtitle">
         Where Fitness Meets Social Connection!
       </div>
-      <div className="weight-loss-support-email">
+      <div className="support-email">
         hello@gym.birlaventures.com
       </div>
-      <div className="weight-loss-support-links">
+      <div className="support-links">
         <AnchorLink
           href="#Home"
           style={{ textDecoration: "none", color: "white" }}
@@ -44,8 +44,8 @@ const PaleoSupport = () => {
           FAQ&apos;s
         </AnchorLink>
       </div>
-      <hr className="weight-loss-support-hr" />
-      <div className="weight-loss-support-copyright">
+      <hr className="support-hr" />
+      <div className="support-copyright">
         © 2024 GymFluencer. All rights reserved.
       </div>
       <a
@@ -53,7 +53,7 @@ const PaleoSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="weight-loss-support-linkedin">
+        <div className="support-linkedin">
           <FaLinkedin />
         </div>
       </a>
@@ -62,7 +62,7 @@ const PaleoSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="weight-loss-support-twitter">
+        <div className="support-twitter">
           <BsTwitterX />
         </div>
       </a>
@@ -71,7 +71,7 @@ const PaleoSupport = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <div className="weight-loss-support-instagram">
+        <div className="support-instagram">
           <RiInstagramFill />
         </div>
       </a>

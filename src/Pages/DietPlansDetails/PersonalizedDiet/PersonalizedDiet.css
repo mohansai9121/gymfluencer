@@ -8,14 +8,14 @@
   top: 20vh;
   left: 0vw;
   width: 100vw;
-  height: 380vh;
+  height: 400vh;
 }
 .personalized-diet-bgimg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 380vh;
+  height: 400vh;
 }
 .personalized-diet-org-bgimg {
   width: 100%;
@@ -28,7 +28,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 380vh;
+  height: 400vh;
   background-color: rgba(0, 0, 0, 0.7);
 }
 .personalized-diet-content-container {
@@ -36,7 +36,7 @@
   top: 10vh;
   left: 10vw;
   width: 80vw;
-  height: 360vh;
+  height: 385vh;
   padding: 0vh 2vw;
   background-color: rgba(0, 0, 0, 0.7);
   display: flex;
@@ -101,4 +101,115 @@
 .personalized-diet-submit-button button:hover,
 .personalized-diet-submit-button button:focus {
   box-shadow: 0px 0px 5px #ee3918;
+}
+
+
+@media (max-width:768px) {
+  .personalized-diet-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .personalized-diet-container-bg {
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+    width: 100vw;
+    height: 278vh;
+  }
+  .personalized-diet-bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 278vh;
+  }
+  .personalized-diet-org-bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .personalized-diet-bgimg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 278vh;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .personalized-diet-content-container {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+    height: 270vh;
+    padding: 0vh 2vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    line-height: 1;
+  }
+  .personalized-diet-content-container p {
+    font-size: 14px;
+  }
+  .personalized-diet-title {
+    font-size: 30px;
+    text-align: center;
+    color: #ee3918;
+    font-weight: 700;
+    margin: 2vh 1vw;
+    line-height: 1.05;
+  }
+  .side-headings {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .side-headings h3 {
+    font-size: 22px;
+    color: #ee3918;
+  }
+  .flex-row {
+    display: flex;
+  }
+  .half-text-input {
+    width: 42vw;
+    height: 3vh;
+    margin: 0vh 0.5vw;
+    font-size: 14px;
+    padding: 0.5vh;
+    border: 1px solid #ee3918;
+  }
+  .half-text-input:hover,
+  .half-text-input:focus {
+    box-shadow: 0px 0px 5px #ee3918;
+  }
+  .full-text-input {
+    width: 84vw;
+    height: 3vh;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ee3918;
+  }
+  .full-text-input:hover,
+  .full-text-input:focus {
+    box-shadow: 0px 0px 5px #ee3918;
+  }
+  .personalized-diet-submit-button button {
+    width: 80vw;
+    border: none;
+    height: 4vh;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-left: 3vw;
+    text-align: center;
+    background-color: #ee3918;
+  }
+  .personalized-diet-submit-button button:hover,
+  .personalized-diet-submit-button button:focus {
+    box-shadow: 0px 0px 5px #ee3918;
+  }
 }

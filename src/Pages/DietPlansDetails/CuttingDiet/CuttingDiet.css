@@ -266,3 +266,284 @@
   font-weight: 600;
   z-index: 1;
 }
+
+
+@media (max-width:768px) {
+  .cutting-diet-plan-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .cutting-diet-plan-title {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    width: 90vw;
+    line-height: 1.05;
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ee3918;
+  }
+  .cutting-diet-plan-subtitle {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: normal;
+    width: 80vw;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1;
+  }
+  
+  .cutting-diet-plan-video {
+    position: absolute;
+    top: 46vh;
+    left: 5vw;
+    width: 90vw;
+    height: 45vh;
+  }
+  .cutting-diet-org-video {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+  .cutting-diet-plan-offer {
+    position: absolute;
+    top: 100vh;
+    left: 15vw;
+    font-family: "protiqueBold";
+    font-size: 40px;
+    color: #ee3918;
+    width: 70vw;
+    text-align: center;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .cutting-diet-plan-offer-img1 {
+    position: absolute;
+    top: 130vh;
+    left: 4vw;
+  }
+  .cutting-diet-plan-offer-img {
+    width: 30vw;
+    height: 20vh;
+    border-radius: 15px;
+  }
+  .cutting-diet-plan-offer-img2 {
+    position: absolute;
+    top: 130vh;
+    left: 38vw;
+  }
+  .cutting-diet-plan-offer-img3 {
+    position: absolute;
+    top: 130vh;
+    left: 71vw;
+  }
+  .cutting-diet-plan-offer-text1 {
+    position: absolute;
+    top: 151vh;
+    left: 5vw;
+    width: 30vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    font-family: "Arial";
+    font-size: 14px;
+  }
+  .cutting-diet-plan-offer-text2 {
+    position: absolute;
+    top: 151vh;
+    left: 39vw;
+    width: 30vw;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1;
+    font-family: "Arial";
+    font-size: 14px;
+  }
+  .cutting-diet-plan-offer-text3 {
+    position: absolute;
+    top: 151vh;
+    left: 72vw;
+    width: 30vw;
+    line-height: 1;
+    white-space: normal;
+    word-wrap: break-word;
+    font-family: "Arial";
+    font-size: 14px;
+  }
+  .cutting-diet-plan-offer-title2 {
+    position: absolute;
+    top: 165vh;
+    left: 10vw;
+    font-family: "protiqueBold";
+    font-size: 30px;
+    color: #ee3918;
+    width: 80vw;
+    text-align: center;
+    line-height: 1.05;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  .cutting-diet-plan-offer-subtitle2 {
+    position: absolute;
+    top: 180vh;
+    left: 20vw;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: normal;
+    width: 60vw;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.05;
+  }
+  .cutting-diet-plan-offer-goal {
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    width: 100vw;
+    height: 165vh;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .cutting-diet-plan-offer-goal-matter {
+    position: absolute;
+    top: 5vh;
+    left: 4vw;
+    width: 92vw;
+    height: 145vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  .cutting-diet-plan-offer-title3 {
+    position: absolute;
+    top: 373vh;
+    left: 25vw;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ee3918;
+  }
+  .cutting-diet-plan-offer-subtitle3 {
+    position: absolute;
+    top: 378vh;
+    left: 20vw;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: normal;
+    width: 60vw;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.05;
+  }
+  .cutting-diet-plan-offer-7day-img {
+    position: absolute;
+    top: 393vh;
+    left: 2vw;
+    width: 29.5vw;
+    height: 35vh;
+    background-color: orange;
+  }
+  .cutting-diet-plan-offer-30day-img {
+    position: absolute;
+    top: 393vh;
+    left: 35vw;
+    width: 29.5vw;
+    height: 35vh;
+    background-color: orange;
+  }
+  .cutting-diet-plan-offer-450cal-img {
+    position: absolute;
+    top: 393vh;
+    left: 68vw;
+    width: 29.5vw;
+    height: 35vh;
+    background-color: orange;
+  }
+  .cutting-org-bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .cutting-diet-plan-offer-goal::after {
+    content: "";
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .cutting-matter {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    line-height: 1.3;
+    margin-left: 2vw;
+  }
+  .cutting-matter-title {
+    font-size: 22px;
+    color: #ee3918;
+    line-height: 1.3;
+  }
+  .cutting-matter-description {
+    width: 80vw;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+  }
+  .cutting-diet-plan-org-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cutting-diet-plan-offer-7day-img::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  .cutting-diet-plan-offer-30day-img::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  .cutting-diet-plan-offer-450cal-img::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+  .cutting-img-title {
+    position: absolute;
+    top: 80%;
+    left: 1vw;
+    font-size: 18px;
+    color: #ee3918;
+    font-weight: 400;
+    z-index: 1;
+    line-height: 1.05;
+  }
+  
+}

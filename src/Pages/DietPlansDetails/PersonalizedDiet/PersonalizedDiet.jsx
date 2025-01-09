@@ -16,7 +16,7 @@ const PersonalizedDiet = () => {
         <div style={{ display: "flex" }}>
           <img src={logo} alt="GymFluencer Logo" className="logo" />
           <span
-            style={{ fontSize: "18px", textAlign: "center", marginTop: "12px" }}
+            className="navbar-logo-name"
           >
             GymFluencer
           </span>
@@ -189,7 +189,7 @@ const PersonalizedDiet = () => {
               <input type="text" className="full-text-input" />
             </div>
           </div>
-          <div className="eating-habits">
+          <div className="side-headings">
             <h3>Current Eating Habits</h3>
             <div>
               <p>Typical Daily Diet</p>
