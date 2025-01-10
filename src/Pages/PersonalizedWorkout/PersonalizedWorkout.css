@@ -557,19 +557,19 @@
   .age-input {
     width: 30vw;
     height: 2vh;
-    font-size: 20px;
+    font-size: 14px;
     border: 1px solid #ee3918;
   }
   .height-input {
     width: 30vw;
     height: 2vh;
-    font-size: 20px;
+    font-size: 14px;
     border: 1px solid #ee3918;
   }
   .weight-input {
     width: 30vw;
     height: 2vh;
-    font-size: 20px;
+    font-size: 14px;
     border: 1px solid #ee3918;
   }
   .gender-selection {
@@ -594,6 +594,7 @@
   .injuries-input {
     width: 75vw;
     height: 7vh;
+    font-size: 14px;
     border: 1px solid #ee3918;
   }
   .condition-input {

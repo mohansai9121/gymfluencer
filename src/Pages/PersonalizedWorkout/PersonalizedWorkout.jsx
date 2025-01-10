@@ -151,9 +151,9 @@ const PersonalizedWorkout = () => {
             <div className="head3-part1">
               <div className="head3-part1-p">
                 <label>Age</label>
-                <input type="text" className="age-input" />
+                <input type="text" className="age-input" placeholder="Ex: 25" />
                 <label>Height</label>
-                <input type="text" className="height-input" />
+                <input type="text" className="height-input" placeholder="Ex: 172cm"/>
               </div>
               <div className="head3-part1-p">
                 <label>Gender</label>
@@ -163,18 +163,18 @@ const PersonalizedWorkout = () => {
                   <option>Other</option>
                 </select>
                 <label>Weight</label>
-                <input type="text" className="weight-input" />
+                <input type="text" className="weight-input" placeholder="Ex: 75kg"/>
               </div>
             </div>
             <div className="head3-part2">
               <label>
                 <pre>Injuries or Physical Limitations:</pre>
               </label>
-              <input type="textarea" className="injuries-input" />
+              <textarea className="injuries-input" placeholder="Ex: Knee injuries or Back pain"></textarea>
               <label>
                 <pre>Medical Conditions:</pre>
               </label>
-              <input type="text" className="condition-input" />
+              <textarea className="condition-input" placeholder="Ex: Mild asthma or Diabetes"></textarea>
             </div>
           </div>
           <div className="personalized-workout-form-container-head4">

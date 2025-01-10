@@ -22,11 +22,11 @@ const PlanStartJourney = () => {
         </div>
         <div className="journey-right-box">
           <label>Name:</label>
-          <input type="text" className="j-input-field" />
+          <input type="text" className="j-input-field" placeholder="Ex: Mohan Sai" />
           <label>Phone:</label>
-          <input type="number" className="j-input-field" />
+          <input type="number" className="j-input-field" placeholder="Ex: 9998887776"/>
           <label>Email:</label>
-          <input type="email" className="j-input-field" />
+          <input type="email" className="j-input-field" placeholder="Ex: example@gmail.com" />
           <label>Services</label>
           <select className="j-input-field">
             <option>Diet Plans</option>

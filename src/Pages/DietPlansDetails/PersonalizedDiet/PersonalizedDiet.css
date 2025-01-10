@@ -73,11 +73,24 @@
   font-size: 16px;
   border: 1px solid #ee3918;
 }
+.half-text-select-input {
+  width: 38vw;
+  height: 4vh;
+  margin: 0vh 0.5vw;
+  font-size: 16px;
+  border: 1px solid #ee3918;
+}
 .half-text-input:hover,
 .half-text-input:focus {
   box-shadow: 0px 0px 5px #ee3918;
 }
 .full-text-input {
+  width: 78vw;
+  height: 4vh;
+  font-size: 16px;
+  border: 1px solid #ee3918;
+}
+.full-text-select-input {
   width: 78vw;
   height: 4vh;
   font-size: 16px;

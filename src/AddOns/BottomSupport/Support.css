@@ -108,9 +108,9 @@
   .support-title {
     position: absolute;
     top: 20vh;
-    left: 32vw;
+    left: 30vw;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 400;
   }
   .support-logo {
     width: 4vw;
@@ -119,23 +119,23 @@
   }
   .support-subtitle {
     position: absolute;
-    top: 32vh;
-    left: 34vw;
-    font-size: 18px;
+    top: 30vh;
+    left: 25vw;
+    font-size: 16px;
     font-weight: 400;
-    width: 40vw;
-    line-height: 1.1;
+    width: 50vw;
+    line-height: 1.2;
     white-space: normal;
     word-wrap: break-word;
     text-align: center;
   }
   .support-email {
     position: absolute;
-    top: 44vh;
+    top: 40vh;
     left: 20vw;
     font-size: 16px;
     font-weight: 400;
-    padding: 15px;
+    padding: 10px;
     border: 0.05vh solid gray;
     border-radius: 10px;
     background-color: gray;
@@ -144,12 +144,12 @@
   .support-links {
     position: absolute;
     top: 52vh;
-    left: 6vw;
+    left: 10vw;
     display: flex;
     gap: 6vw;
     line-height: 1;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
   }
   .support-hr {
     position: absolute;
@@ -162,18 +162,18 @@
   .support-copyright {
     position: absolute;
     top: 58.5vh;
-    left: 3vw;
-    width: 28vw;
+    left: 1vw;
+    width: 32vw;
     white-space: normal;
     word-wrap: break-word;
     line-height: 1;
     font-size: 12px;
-    font-weight: 200;
+    font-weight: 400;
   }
   .support-linkedin {
     position: absolute;
     top: 58.5vh;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
     left: 64vw;
     border: 0.001vh solid gray;
@@ -185,7 +185,7 @@
     position: absolute;
     top: 58.5vh;
     left: 74vw;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
     border: 0.001vh solid gray;
     border-radius: 10px;
@@ -196,7 +196,7 @@
     position: absolute;
     top: 58.5vh;
     left: 84vw;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
     border: 0.001vh solid gray;
     border-radius: 10px;
